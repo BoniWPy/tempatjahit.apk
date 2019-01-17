@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<android.support.v7.widget.CardView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="6dp" app:contentPadding="5dp">
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+						<ImageView android:id="false" android:layout_width="100dp" android:layout_height="100dp" />
+						<View android:background="a51f4e" android:visibility="2" android:layout_width="30dp" android:layout_height="100dp" />
+						<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp">
+							<TextView android:textSize="15dp" android:textColor="000" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Product Name" />
+							<TextView android:textSize="15dp" android:textColor="424242" android:layout_width="-1" android:layout_height="-2" android:text="Pattern 1" />
+							<TextView android:textSize="12dp" android:textColor="a51f4e" android:gravity="0x11" android:layout_gravity="0x5" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_border.xml" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:text="ADD" android:drawableLeft="res/drawable-xhdpi-v4/ic_add_p.png" android:drawablePadding="10dp" android:textAllCaps="true" />
+							<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+								<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:text="S" />
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="M" />
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="L" />
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="XL" />
+								</LinearLayout>
+								<LinearLayout android:orientation="0" android:background="res/drawable-xhdpi-v4/custom_bg_brand.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp">
+									<ImageView android:id="false" android:padding="4dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/ic_remove.png" />
+									<TextView android:textSize="17dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="30dp" android:minWidth="60dp" android:text="0 QTY" />
+									<ImageView android:id="false" android:padding="4dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/ic_add.png" />
+								</LinearLayout>
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+						<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp">
+							<Switch android:id="false" android:layout_width="-2" android:layout_height="-2" android:textOn="YES" android:textOff="NO" />
+							<TextView android:textSize="13dp" android:textStyle="0x1" android:textColor="000" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Fabrics Provide by Kostoom" android:layout_weight="{4:1065353216}" />
+						</LinearLayout>
+						<EditText android:textSize="14dp" android:textColor="000" android:textColorHint="bdbdbd" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_edittext.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="5dp" android:hint="Please write your Colors &amp; Pattern" />
+					</LinearLayout>
+				</LinearLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="6dp" app:contentPadding="5dp">
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+						<ImageView android:id="false" android:layout_width="100dp" android:layout_height="100dp" />
+						<View android:background="d455a" android:visibility="2" android:layout_width="30dp" android:layout_height="100dp" />
+						<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp">
+							<TextView android:textSize="15dp" android:textColor="000" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Product Name" />
+							<TextView android:textSize="15dp" android:textColor="424242" android:layout_width="-1" android:layout_height="-2" android:text="Pattern 2" />
+							<TextView android:textSize="12dp" android:textColor="a51f4e" android:gravity="0x11" android:layout_gravity="0x5" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_border.xml" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:text="ADD" android:drawableLeft="res/drawable-xhdpi-v4/ic_add_p.png" android:drawablePadding="10dp" android:textAllCaps="true" />
+							<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+								<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:text="S" />
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="M" />
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="L" />
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="XL" />
+								</LinearLayout>
+								<LinearLayout android:orientation="0" android:background="res/drawable-xhdpi-v4/custom_bg_brand.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp">
+									<ImageView android:id="false" android:padding="4dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/ic_remove.png" />
+									<TextView android:textSize="17dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="30dp" android:minWidth="60dp" android:text="0 QTY" />
+									<ImageView android:id="false" android:padding="4dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/ic_add.png" />
+								</LinearLayout>
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+						<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp">
+							<Switch android:id="false" android:layout_width="-2" android:layout_height="-2" android:textOn="YES" android:textOff="NO" />
+							<TextView android:textSize="13dp" android:textStyle="0x1" android:textColor="000" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Fabrics Provide by Kostoom" android:layout_weight="{4:1065353216}" />
+						</LinearLayout>
+						<EditText android:textSize="14dp" android:textColor="000" android:textColorHint="bdbdbd" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_edittext.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="5dp" android:hint="Please write your Colors &amp; Pattern" />
+					</LinearLayout>
+				</LinearLayout>
+			</android.support.v7.widget.CardView>
+			<android.support.v7.widget.CardView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="6dp" app:contentPadding="5dp">
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+						<ImageView android:id="false" android:layout_width="100dp" android:layout_height="100dp" />
+						<View android:background="3b5998" android:visibility="2" android:layout_width="30dp" android:layout_height="100dp" />
+						<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp">
+							<TextView android:textSize="15dp" android:textColor="000" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Product Name" />
+							<TextView android:textSize="15dp" android:textColor="424242" android:layout_width="-1" android:layout_height="-2" android:text="Pattern 3" />
+							<TextView android:textSize="12dp" android:textColor="a51f4e" android:gravity="0x11" android:layout_gravity="0x5" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_border.xml" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="15dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:text="ADD" android:drawableLeft="res/drawable-xhdpi-v4/ic_add_p.png" android:drawablePadding="10dp" android:textAllCaps="true" />
+							<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+								<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:text="S" />
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="M" />
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="L" />
+									<TextView android:textSize="12dp" android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:visibility="2" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:text="XL" />
+								</LinearLayout>
+								<LinearLayout android:orientation="0" android:background="res/drawable-xhdpi-v4/custom_bg_brand.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp">
+									<ImageView android:id="false" android:padding="4dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/ic_remove.png" />
+									<TextView android:textSize="17dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="30dp" android:minWidth="60dp" android:text="0 QTY" />
+									<ImageView android:id="false" android:padding="4dp" android:layout_width="30dp" android:layout_height="30dp" android:src="res/drawable-xhdpi-v4/ic_add.png" />
+								</LinearLayout>
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+						<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp">
+							<Switch android:id="false" android:layout_width="-2" android:layout_height="-2" android:textOn="YES" android:textOff="NO" />
+							<TextView android:textSize="13dp" android:textStyle="0x1" android:textColor="000" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Fabrics Provide by Kostoom" android:layout_weight="{4:1065353216}" />
+						</LinearLayout>
+						<EditText android:textSize="14dp" android:textColor="000" android:textColorHint="bdbdbd" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_edittext.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="5dp" android:hint="Please write your Colors &amp; Pattern" />
+					</LinearLayout>
+				</LinearLayout>
+			</android.support.v7.widget.CardView>
+		</LinearLayout>
+	</ScrollView>
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:background="res/drawable/estimate_button.xml" android:layout_width="-1" android:layout_height="50dp">
+		<TextView android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="Estimated Price:" android:layout_weight="{4:1065353216}" />
+		<View android:background="616161" android:layout_width="4194304unknown unit:0x31" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+		<TextView android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="Average Price" android:layout_weight="{4:1065353216}" />
+		<View android:background="616161" android:layout_width="4194304unknown unit:0x31" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+		<TextView android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="ADD TO
+CART" android:drawableRight="res/mipmap-xxxhdpi-v4/ic_chevron_right_black_24dp.png" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+</LinearLayout>

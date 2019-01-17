@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f5f5f5" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<RelativeLayout android:background="e0e0e0" android:layout_width="-1" android:layout_height="200dp">
+			<ImageView android:id="false" android:layout_width="-1" android:layout_height="200dp" android:scaleType="1" />
+			<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="a51f4e" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_round_border.xml" android:paddingLeft="20dp" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" />
+		<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" />
+		<TextView android:textSize="15dp" android:textColor="000" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Term &amp; Condition" />
+		<TextView android:textSize="14dp" android:textColor="424242" android:id="false" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Every hour, one lucky customer will get 100% Cashback.
+Maximum Cashback available is Rs. 1000.
+Promocode can be used once per CA number.
+Promocode is applicable only on Electricity Bill Payment.
+Promocode can be used 3 times per user.
+Cashback will be credited within 24 hours of the transaction into user&apos;s Paytm Wallet.
+We reserve the right to end any or all offers at our discretion without any prior notice." />
+		<TextView android:textSize="15dp" android:textColor="000" android:paddingLeft="10dp" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Note:" />
+		<TextView android:textSize="14dp" android:textColor="424242" android:id="false" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="If you transact for Rs 300, you will receive 100% cashback ie. Rs 300
+If you transact for Rs 1000, you will receive 100% cashback ie. Rs 1000
+If you transact for Rs 2000, you will receive maximum cashback ie. Rs 1000" />
+	</LinearLayout>
+</ScrollView>

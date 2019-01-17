@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</ScrollView>
+		<Button android:textColor="000" android:gravity="0x13" android:id="false" android:background="res/drawable/estimate_button.xml" android:paddingLeft="20dp" android:paddingRight="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="{2:2130772043}" android:text="Checkout" android:drawableRight="res/mipmap-xxxhdpi-v4/ic_chevron_right_black_24dp.png" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<ImageView android:layout_width="-1" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/ic_empty_cart.png" />
+		<TextView android:textSize="18dp" android:textColor="000" android:gravity="0x11" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Sorry, there are no items on cart." />
+		<Button android:textColor="ffffff" android:id="false" android:background="res/drawable/white_border_circle.xml" android:layout_width="200dp" android:layout_height="-2" android:text="Countinue Shopping" />
+	</LinearLayout>
+</LinearLayout>

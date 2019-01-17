@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:layout_above="false">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1065353216}">
+			<include layout="@layout/steps" />
+			<LinearLayout android:orientation="1" android:background="res/drawable/pannel_white.xml" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+				<TableLayout android:layout_width="-1" android:layout_height="-2" android:stretchColumns="*">
+					<TableRow>
+						<TextView android:textStyle="0x1" android:layout_span="2" android:text="What kind button this model use?" />
+					</TableRow>
+					<TableRow>
+						<RadioButton android:id="false" android:text="Shirt Button" />
+						<RadioButton android:id="false" android:text="Wrap Button" />
+					</TableRow>
+					<TableRow>
+						<RadioButton android:id="false" android:text="Provide My Self" />
+						<RadioButton android:id="false" android:text="No Button Required" />
+					</TableRow>
+					<TableRow android:visibility="2">
+						<LinearLayout android:orientation="0" android:layout_span="2">
+							<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Others" />
+							<TextView android:textStyle="0x2" android:layout_width="-2" android:layout_height="-2" android:text="(Specify below)" />
+						</LinearLayout>
+					</TableRow>
+					<TableRow>
+						<TextView android:textStyle="0x1" android:layout_marginTop="25dp" android:layout_span="2" android:text="What kind zipper this model use?" />
+					</TableRow>
+					<TableRow>
+						<RadioButton android:id="false" android:text="Regular Zipper" />
+						<RadioButton android:id="false" android:text="Japan Zipper" />
+					</TableRow>
+					<TableRow>
+						<RadioButton android:id="false" android:text="Provide My Self" />
+						<RadioButton android:id="false" android:text="No zipper Required" />
+					</TableRow>
+					<TableRow android:visibility="2">
+						<LinearLayout android:orientation="0" android:layout_span="2">
+							<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Others" />
+							<TextView android:textStyle="0x2" android:layout_width="-2" android:layout_height="-2" android:text="(Specify below)" />
+						</LinearLayout>
+					</TableRow>
+					<TableRow>
+						<TextView android:textStyle="0x1" android:layout_marginTop="25dp" android:layout_span="2" android:text="Do you use furing in this model?" />
+					</TableRow>
+					<TableRow>
+						<RadioGroup android:id="false" android:layout_span="2">
+							<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="No, Furing Required" />
+							<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Yes, Provide My Self" />
+							<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Yes, Furing provide by Kostoom" />
+						</RadioGroup>
+					</TableRow>
+				</TableLayout>
+				<EditText android:textSize="14dp" android:gravity="0x800033" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:hint="Accessories Note" />
+				<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+					<CheckBox android:id="false" android:padding="4dp" android:layout_width="-2" android:layout_height="-2" />
+					<TextView android:layout_width="-2" android:layout_height="-2" android:text="Yes I confirm this accessories info for this model" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<include layout="@layout/steps_next" />
+</RelativeLayout>

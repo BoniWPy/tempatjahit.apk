@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x3" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp">
+	<include android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" layout="@layout/row_agent_avatar_view" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="56dp" android:layout_toRightOf="false" android:layout_alignTop="false" />
+	<TextView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_alignLeft="false" style="@style/chat_bubble_agent_name" />
+	<LinearLayout android:gravity="0x5" android:layout_gravity="0x5" android:orientation="1" android:id="false" android:paddingLeft="112dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="4dp" android:layout_below="false" />
+</RelativeLayout>

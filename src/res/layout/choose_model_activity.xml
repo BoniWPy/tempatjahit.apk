@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:background="d02762" android:padding="5dp" android:layout_width="-1" android:layout_height="{2:2130772043}">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:src="res/mipmap-xxxhdpi-v4/ic_keyboard_arrow_left_white_24dp.png" />
+		<EditText android:textSize="15dp" android:textColor="ffffff" android:textColorHint="ffffff" android:id="false" android:background="res/drawable-xhdpi-v4/custom_edittext_view.xml" android:paddingTop="10dp" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-2" android:hint="Search" android:maxLines="1" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_search.png" android:drawablePadding="10dp" android:inputType="0x80001" android:imeOptions="0x3" android:textCursorDrawable="resourceId:0x0" />
+		<TextView android:textSize="18dp" android:textStyle="0x1" android:textColor="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="Model Sewing" />
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:tag="sticky" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+		<RelativeLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="16dp" android:textColor="000" android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Category" android:drawableRight="res/drawable-xxxhdpi-v4/ic_category.png" android:drawablePadding="40dp" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<View android:background="757575" android:layout_width="4194304unknown unit:0x31" android:layout_height="-1" />
+		<RelativeLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<com.jayfang.dropdownmenu.DropDownMenu android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp" android:layout_centerInParent="true" />
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<it.sephiroth.android.library.widget.HListView android:id="false" android:background="resourceId:0x106000d" android:paddingTop="3dp" android:paddingBottom="3dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+		<com.daimajia.slider.library.SliderLayout android:visibility="2" android:layout_width="-1" android:layout_height="200dp" />
+		<ListView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:divider="resourceId:0x0" />
+		<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="100dp" />
+	</LinearLayout>
+</LinearLayout>

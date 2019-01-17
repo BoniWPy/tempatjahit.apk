@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<include android:id="false" android:layout_width="-1" android:layout_height="-2" layout="@layout/toolbar" />
+	<TextView android:id="false" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-2" android:layout_height="-2" android:text="Allow access to photos, media and files on your device to view images" android:layout_centerInParent="true" />
+	<ProgressBar android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Oops, something went wrong!" android:layout_centerInParent="true" />
+	<GridView android:id="false" android:paddingLeft="1dp" android:paddingTop="1dp" android:paddingRight="1dp" android:paddingBottom="1dp" android:layout_width="-1" android:layout_height="-1" android:stretchMode="2" android:layout_below="false" />
+	<Button android:textSize="20sp" android:textColor="ffffff" android:id="false" android:background="4caf50" android:padding="16dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="16dp" android:text="Grant Permission" android:layout_alignParentBottom="true" android:textAllCaps="true" />
+</RelativeLayout>

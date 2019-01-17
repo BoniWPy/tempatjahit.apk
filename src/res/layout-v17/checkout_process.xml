@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TableLayout android:id="false" android:layout_width="-1" android:layout_height="50dp" android:stretchColumns="*" android:shrinkColumns="*" style="@style/panel">
+		<TableRow>
+			<ImageView android:id="false" android:src="res/mipmap-mdpi-v4/cart.png" />
+			<ImageView android:id="false" android:src="res/mipmap-mdpi-v4/profile.png" />
+			<ImageView android:id="false" android:src="res/mipmap-mdpi-v4/address.png" />
+			<ImageView android:id="false" android:src="res/mipmap-mdpi-v4/schedule.png" />
+			<ImageView android:id="false" android:src="res/mipmap-mdpi-v4/payment.png" />
+			<ImageView android:id="false" android:layout_marginRight="15dp" android:src="res/mipmap-mdpi-v4/confirm.png" />
+		</TableRow>
+	</TableLayout>
+	<RelativeLayout android:id="false" android:background="res/drawable/estimate_button.xml" android:visibility="2" android:layout_width="-1" android:layout_height="55dp" android:layout_alignLeft="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_alignStart="false">
+		<TextView android:textSize="17dp" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Please Rate &amp; Review all previous order" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="res/drawable/estimate_button.xml" android:layout_width="-1" android:layout_height="-2" android:layout_alignLeft="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_alignStart="false">
+		<Button android:textSize="16dp" android:textColor="000" android:gravity="0x13" android:layout_gravity="0x51" android:id="false" android:background="resourceId:0x106000d" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:text="Estimated price :" android:drawableRight="res/mipmap-xxxhdpi-v4/ic_chevron_right_black_24dp.png" android:layout_toRightOf="false" android:layout_centerVertical="true" android:layout_toEndOf="false" style="@style/button" />
+		<ImageView android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-1" android:layout_margin="0dp" android:src="res/mipmap-xxxhdpi-v4/ic_shopping_cart_black_24dp.png" android:scaleType="3" android:layout_alignTop="false" android:layout_alignBottom="false" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+		<TextView android:textSize="10sp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/rounded_button.xml" android:paddingLeft="5dp" android:paddingTop="2dp" android:paddingRight="5dp" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:text="0" android:layout_alignTop="false" android:layout_alignRight="false" />
+	</RelativeLayout>
+	<ScrollView android:id="false" android:layout_width="-1" android:layout_height="-2" android:fillViewport="true" android:layout_above="false" android:layout_below="false" android:layout_alignRight="false" android:layout_alignEnd="false">
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</ScrollView>
+</RelativeLayout>

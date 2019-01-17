@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<include android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" layout="@layout/row_attachment_document_view" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+		<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		<ImageView android:id="false" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/bg_picasso_placeholder.xml" android:adjustViewBounds="true" />
+	</FrameLayout>
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<android.support.design.widget.AppBarLayout android:theme="resourceId:0x7f0b00c1" android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="250dp">
+		<android.support.design.widget.CollapsingToolbarLayout android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1" app:layout_scrollFlags="0x3" app:contentScrim="{2:2130772104}">
+			<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+				<ProgressBar android:theme="resourceId:0x7f0b00c2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+				<ImageView android:id="false" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" app:layout_collapseMode="2" />
+			</RelativeLayout>
+			<android.support.v7.widget.Toolbar android:id="false" android:layout_width="-1" android:layout_height="{2:2130772043}" app:popupTheme="resourceId:0x7f0b00c3" app:layout_collapseMode="1" />
+		</android.support.design.widget.CollapsingToolbarLayout>
+	</android.support.design.widget.AppBarLayout>
+	<include layout="@layout/view_fabric_content" />
+	<android.support.design.widget.FloatingActionButton android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp" android:tint="ffffff" app:srcCompat="res/mipmap-xxxhdpi-v4/ic_shopping_cart_black_24dp.png" app:layout_anchor="false" app:layout_anchorGravity="0x800055" />
+</android.support.design.widget.CoordinatorLayout>

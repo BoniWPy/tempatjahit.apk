@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="res/drawable-xxxhdpi-v4/ucrop_ic_done.png" android:id="false" android:title="Crop" app:showAsAction="0x1" />
+	<item android:icon="res/drawable/ucrop_vector_loader_animated.xml" android:enabled="false" android:id="false" android:title="" app:showAsAction="0x1" />
+</menu>

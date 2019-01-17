@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:layout_above="false">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:weightSum="{4:1065353216}">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" style="@style/panel">
+				<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/ic_empty_cart.png" />
+				<TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:layout_marginBottom="30dp" android:text="Sorry, there are no items on cart." />
+				<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Countinue Shopping" style="@style/inner_button1" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<Button android:id="false" android:layout_width="-1" android:layout_height="0dp" android:text="Checkout" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/button" />
+	<LinearLayout android:gravity="0x5" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_above="false" android:layout_alignRight="false" android:layout_alignEnd="false">
+		<TextView android:textSize="20dp" android:layout_gravity="0x5" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Cart Total" />
+		<TableLayout android:layout_width="-2" android:layout_height="-2">
+			<TableRow>
+				<TextView android:layout_gravity="0x5" android:text="Total items: " />
+				<TextView android:id="false" />
+			</TableRow>
+			<TableRow>
+				<TextView android:layout_gravity="0x5" android:text="Total Price: " />
+				<TextView android:id="false" />
+			</TableRow>
+			<TableRow>
+				<TextView android:layout_gravity="0x5" android:text="Discount: " />
+				<TextView android:id="false" />
+			</TableRow>
+			<TableRow>
+				<TextView android:layout_gravity="0x5" android:text="Net price: " />
+				<TextView android:id="false" />
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+</RelativeLayout>

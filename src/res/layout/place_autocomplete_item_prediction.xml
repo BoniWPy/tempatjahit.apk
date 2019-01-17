@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:layout_width="-1" android:layout_height="72dp">
+	<include android:layout_gravity="0x11" android:visibility="1" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" layout="@layout/place_autocomplete_progress" />
+	<View android:id="false" android:layout_width="0dp" android:layout_height="0dp" android:layout_centerVertical="true" />
+	<TextView android:textSize="16sp" android:textColor="212121" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:lines="1" android:singleLine="true" android:layout_toRightOf="false" android:layout_above="false" android:layout_centerVertical="true" />
+	<TextView android:textSize="14sp" android:textColor="757575" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:lines="1" android:singleLine="true" android:layout_toRightOf="false" android:layout_below="false" />
+</RelativeLayout>

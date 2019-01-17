@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v4.view.ViewPager android:id="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}" android:layout_above="false" />
+	<com.whl.handytabbar.HandyTabBar android:layout_gravity="0x50" android:id="false" android:background="res/drawable-xhdpi-v4/custom_shadow.xml" android:layout_width="-1" android:layout_height="50dp" android:layout_alignParentBottom="true" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="res/mipmap-xxxhdpi-v4/ic_home_white_48dp.png" android:id="false" android:orderInCategory="100" android:title="Home" app:showAsAction="0x2" />
+</menu>

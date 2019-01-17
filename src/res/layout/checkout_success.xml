@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="270dp" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/panel">
+		<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/mipmap-mdpi-v4/check_circle.png" />
+		<TextView android:textStyle="0x1" android:gravity="0x11" android:background="ffffff" android:paddingTop="20dp" android:paddingBottom="10dp" android:layout_width="250dp" android:layout_height="-2" android:text="Congratulations, Your Order has been placed, please wait Kostoom Team to confirm your order in 1x24 Hours" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="3dp" />
+		<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size_fill.xml" android:padding="10dp" android:layout_width="100dp" android:layout_height="-2" android:text="OK" />
+	</LinearLayout>
+</RelativeLayout>

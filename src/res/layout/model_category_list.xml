@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:background="res/drawable-xhdpi-v4/custom_bg_square_border.xml" android:layout_width="-2" android:layout_height="35dp" android:layout_marginLeft="3dp" android:layout_marginRight="3dp">
+		<TextView android:textAppearance="{2:16842818}" android:textSize="15dp" android:textStyle="0x1" android:textColor="a51f4e" android:gravity="0x11" android:id="resourceId:0x1020014" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-2" android:minWidth="80dp" android:text="PRODUCT" android:layout_centerInParent="true" />
+	</RelativeLayout>
+</LinearLayout>

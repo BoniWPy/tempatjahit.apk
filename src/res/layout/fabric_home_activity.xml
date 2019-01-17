@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="e0e0e0" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x10" android:id="false" android:background="d02762" android:visibility="2" android:layout_width="-1" android:layout_height="{2:2130772043}">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:src="res/mipmap-xxxhdpi-v4/ic_keyboard_arrow_left_white_24dp.png" />
+		<EditText android:textSize="15dp" android:textColor="ffffff" android:textColorHint="88ffffff" android:id="false" android:background="res/drawable-xhdpi-v4/custom_edittext_view.xml" android:paddingTop="10dp" android:paddingBottom="15dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="10dp" android:hint="Search Fabric" android:maxLines="1" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_search.png" android:drawablePadding="10dp" android:layout_weight="{4:1065353216}" android:inputType="0x80001" android:imeOptions="0x3" android:textCursorDrawable="resourceId:0x0" />
+	</LinearLayout>
+	<android.support.design.widget.AppBarLayout android:id="false" android:background="50000" android:layout_width="-1" android:layout_height="-2">
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<android.support.v7.widget.Toolbar android:id="false" android:background="d02762" android:layout_width="-1" android:layout_height="{2:2130772043}" />
+			<com.miguelcatalan.materialsearchview.MaterialSearchView android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</FrameLayout>
+	</android.support.design.widget.AppBarLayout>
+	<LinearLayout android:orientation="0" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+		<RelativeLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="16dp" android:textColor="000" android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Category" android:drawableRight="res/drawable-xxxhdpi-v4/ic_category.png" android:drawablePadding="40dp" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<View android:background="757575" android:layout_width="4194304unknown unit:0x31" android:layout_height="-1" />
+		<RelativeLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<com.jayfang.dropdownmenu.DropDownMenu android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp" android:layout_centerInParent="true" />
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<com.daimajia.slider.library.SliderLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="200dp" />
+		<LinearLayout android:orientation="1" android:background="res/drawable-xhdpi-v4/custom_bg_edittext.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp">
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="d03d40" android:paddingLeft="10dp" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2" android:text="BRAND" android:textAllCaps="true" />
+			<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="75dp" />
+			<it.sephiroth.android.library.widget.HListView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="75dp" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="res/drawable-xhdpi-v4/custom_bg_edittext.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="5dp">
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="d03d40" android:paddingLeft="10dp" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Fabrics" android:textAllCaps="true" />
+			<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="70dp" />
+			<it.sephiroth.android.library.widget.HListView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="60dp" />
+		</LinearLayout>
+		<RelativeLayout android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+				<View android:background="e885a7" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_centerInParent="true" />
+				<View android:background="e885a7" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginTop="2dp" />
+			</LinearLayout>
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="d03d40" android:background="e0e0e0" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" android:text="ALL FABRICS" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<ListView android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:divider="resourceId:0x0" />
+		<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="100dp" />
+	</LinearLayout>
+</LinearLayout>

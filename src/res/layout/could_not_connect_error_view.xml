@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:layout_width="-2" android:layout_height="-2" android:text="Could not connect" android:drawableTop="res/drawable-xxxhdpi-v4/ic_noagents_red.png" android:drawablePadding="12dp" style="@style/no_connection_error_view_title" />
+	<TextView android:padding="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Sorry, we can&apos;t connect you at the moment. Please try again later." style="@style/no_connection_error_view_text" />
+</LinearLayout>

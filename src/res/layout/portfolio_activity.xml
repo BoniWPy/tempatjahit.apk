@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<GridView android:id="false" android:layout_width="-1" android:layout_height="-1" android:listSelector="0000" android:horizontalSpacing="2dp" android:verticalSpacing="2dp" android:numColumns="3" />
+	<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/no_internet.png" android:layout_centerInParent="true" />
+	<TextView android:textSize="16dp" android:textColor="424242" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Oops, you have not yet uploaded your portfolio.
+Please upload now" android:layout_centerInParent="true" />
+	<Button android:textSize="13sp" android:textColor="ffffff" android:id="false" android:background="res/drawable/inner_button1.xml" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="2" android:layout_width="-2" android:layout_height="40dp" android:layout_marginTop="20dp" android:text="Upload now" android:layout_below="false" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<android.support.v7.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="10dp" app:cardElevation="3dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="11dp" android:textColor="616161" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+					<ImageView android:id="false" android:layout_width="80dp" android:layout_height="80dp" android:scaleType="6" />
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="17dp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+							<TextView android:textSize="14dp" android:textColor="424242" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="helo" />
+							<View android:id="false" android:background="666666" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="10dp" />
+						</LinearLayout>
+						<TextView android:textSize="14dp" android:textColor="424242" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+						<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="d02762" android:gravity="0x5" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+	</LinearLayout>
+	<ImageView android:id="false" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="15dp" android:layout_marginRight="20dp" android:src="res/drawable-xxxhdpi-v4/ic_close_accent.png" android:layout_alignParentRight="true" />
+</RelativeLayout>

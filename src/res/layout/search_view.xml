@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+	<View android:id="false" android:background="50000" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<RelativeLayout android:id="false" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="{2:2130772043}">
+			<EditText android:textSize="16sp" android:textColor="212121" android:textColorHint="727272" android:id="false" android:background="resourceId:0x0" android:paddingLeft="65dp" android:paddingRight="65dp" android:layout_width="-1" android:layout_height="-1" android:hint="Search" android:singleLine="true" android:inputType="0x80001" android:imeOptions="0x3" />
+			<ImageButton android:id="false" android:src="res/drawable-xxxhdpi-v4/ic_action_navigation_arrow_back.png" android:layout_centerVertical="true" style="@style/MSV_ImageButton" />
+			<ImageButton android:id="false" android:src="res/drawable-xxxhdpi-v4/ic_action_voice_search.png" android:layout_alignParentRight="true" style="@style/MSV_ImageButton" />
+			<ImageButton android:id="false" android:visibility="2" android:src="res/drawable-xxxhdpi-v4/ic_action_navigation_close.png" android:layout_alignParentRight="true" style="@style/MSV_ImageButton" />
+			<View android:background="ffffff" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<ListView android:id="false" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:divider="resourceId:0x106000d" />
+	</LinearLayout>
+</FrameLayout>

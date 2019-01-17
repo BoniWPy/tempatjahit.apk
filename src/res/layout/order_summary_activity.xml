@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Product Details" android:textAllCaps="true" />
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Product Details" android:textAllCaps="true" />
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Product Details" android:textAllCaps="true" />
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Apply Coupon" android:textAllCaps="true" />
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable-xhdpi-v4/custom_bg_square_border.xml" android:padding="5dp" android:layout_width="-1" android:layout_height="-2">
+				<EditText android:textSize="15dp" android:textColor="000" android:textColorHint="9e9e9e" android:id="false" android:background="ffffff" android:padding="10dp" android:layout_width="0dp" android:layout_height="-2" android:hint="Enter Coupon code" android:layout_weight="{4:1065353216}" android:inputType="0x1" android:imeOptions="0x6" />
+				<Button android:textColor="ffffff" android:id="false" android:background="d02762" android:visibility="0" android:layout_width="-2" android:layout_height="40dp" android:text="Apply" />
+				<ProgressBar android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+				<ImageView android:id="false" android:visibility="2" android:layout_width="33dp" android:layout_height="33dp" android:layout_marginRight="5dp" android:src="res/drawable-xxxhdpi-v4/ic_close_accent.png" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="Payment Summary" android:textAllCaps="true" />
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+				<TextView android:textSize="14dp" android:textColor="424242" android:layout_width="0dp" android:layout_height="-2" android:text="Sub total" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14dp" android:textStyle="0x1" android:textColor="424242" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+				<TextView android:textSize="14dp" android:textColor="424242" android:layout_width="0dp" android:layout_height="-2" android:text="Discount" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14dp" android:textStyle="0x1" android:textColor="e885a7" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+				<TextView android:textSize="14dp" android:textColor="424242" android:layout_width="0dp" android:layout_height="-2" android:text="Shipping" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14dp" android:textStyle="0x1" android:textColor="424242" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" />
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+				<TextView android:textSize="14dp" android:textColor="424242" android:layout_width="0dp" android:layout_height="-2" android:text="Total" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="d02762" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp">
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="Contact Details" android:textAllCaps="true" />
+			<TextView android:textSize="14dp" android:textColor="424242" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" />
+			<TextView android:textSize="14dp" android:textColor="424242" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="ffffff" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp">
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:layout_width="0dp" android:layout_height="-2" android:text="Delivers To" android:layout_weight="{4:1065353216}" android:textAllCaps="true" />
+			</LinearLayout>
+			<TextView android:textSize="16dp" android:textColor="212121" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" />
+			<TextView android:textSize="14dp" android:textColor="424242" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="14dp" android:textColor="424242" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="14dp" android:textColor="424242" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+			</LinearLayout>
+		</LinearLayout>
+		<Button android:textColor="000" android:id="false" android:background="res/drawable/estimate_button.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="Confirm Checkout" />
+	</LinearLayout>
+</ScrollView>

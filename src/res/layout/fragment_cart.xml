@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<android.support.v7.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="5dp" app:cardElevation="2dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="16dp" android:textColor="000" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Model Sewing" android:drawableRight="res/mipmap-xxxhdpi-v4/ic_chevron_right_black_24dp.png" />
+				<TextView android:textSize="14dp" android:textColor="d02762" android:id="false" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="5dp" app:cardElevation="2dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="16dp" android:textColor="000" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Fabrics" android:drawableRight="res/mipmap-xxxhdpi-v4/ic_chevron_right_black_24dp.png" />
+				<TextView android:textSize="14dp" android:textColor="d02762" android:id="false" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="5dp" app:cardElevation="2dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="17dp" android:textColor="000" android:paddingLeft="5dp" android:paddingTop="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Custom Sewing" android:drawableRight="res/mipmap-xxxhdpi-v4/ic_chevron_right_black_24dp.png" />
+				<TextView android:textSize="14dp" android:textColor="d02762" android:id="false" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="6dp" app:cardElevation="1dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="16dp" android:textColor="000" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Manage Now" android:drawableRight="res/mipmap-xxxhdpi-v4/ic_chevron_right_black_24dp.png" />
+				<TextView android:textSize="14dp" android:textColor="d02762" android:id="false" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Coming soon" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+	</LinearLayout>
+	<Button android:textColor="000" android:id="false" android:background="res/drawable/estimate_button.xml" android:layout_width="-1" android:layout_height="{2:2130772043}" android:text="Checkout" android:drawableRight="res/drawable-xxxhdpi-v4/ic_arrow_right.png" android:layout_alignParentBottom="true" />
+</RelativeLayout>

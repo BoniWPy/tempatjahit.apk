@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x3" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8dp">
+	<include android:layout_gravity="0x10" android:id="false" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" layout="@layout/row_agent_avatar_view" />
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="56dp" android:layout_marginBottom="8dp" android:layout_toRightOf="false" android:layout_alignTop="false">
+		<TextView android:layout_width="-2" android:layout_height="-2" android:text="Rate this chat" />
+		<RadioGroup android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp">
+			<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:button="res/drawable/btn_thumb_up_radio_button.xml" android:adjustViewBounds="true" />
+			<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:button="res/drawable/btn_thumb_down_radio_button.xml" android:adjustViewBounds="true" />
+		</RadioGroup>
+	</LinearLayout>
+	<TextView android:textColor="resourceId:0x1060000" android:id="false" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="Leave a comment…" android:layout_below="false" android:layout_alignLeft="false" />
+	<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="112dp" android:layout_below="false" android:layout_alignParentRight="true">
+		<TextView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="@style/chat_bubble_visitor" />
+		<TextView android:textColor="resourceId:0x1060000" android:id="false" android:padding="10dp" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="Edit comment…" android:layout_below="false" />
+	</LinearLayout>
+</RelativeLayout>

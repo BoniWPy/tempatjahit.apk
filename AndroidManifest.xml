@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="39" android:versionName="1.0.27" package="com.evlop.kostoom" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="25" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="android.permission.WRITE_CONTACTS" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAHbmNmy0LIyhK4ZcKZ6uY7TN20IH_3cd0" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+	<uses-feature android:glEsVersion="0x20000" android:required="true" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<permission android:name="com.evlop.kostoom.permission.C2D_MESSAGE" android:protectionLevel="0x2" />
+	<uses-permission android:name="com.evlop.kostoom.permission.C2D_MESSAGE" />
+	<application android:theme="resourceId:0x7f0b00c0" android:label="Kostoom" android:icon="res/mipmap-xxxhdpi-v4/ic_launcher.png" android:name="com.evlop.App" android:allowBackup="true" android:largeHeap="true" android:supportsRtl="true">
+		<meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="com.evlop.kostoom" />
+		<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="1724328237818038" />
+		<meta-data android:name="DATABASE" android:value="sizeckostoom.db" />
+		<meta-data android:name="VERSION" android:value="19" />
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDBaL8X3LlEh0Z7zYYk0HfiAkpaE0tQiN0" />
+		<activity android:theme="resourceId:0x7f0b0049" android:label="Kostoom" android:name="com.evlop.kostoom.Splash" android:screenOrientation="portrait" android:windowSoftInputMode="0x22">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.evlop.kostoom.MainActivity" android:screenOrientation="portrait" android:configChanges="0x480" android:windowSoftInputMode="0x20" />
+		<activity android:theme="resourceId:0x7f0b0049" android:name="com.evlop.kostoom.Role" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b0049" android:name="com.evlop.kostoom.Login" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b0049" android:name="com.evlop.kostoom.Portfolio.ImageSwipe" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b0049" android:name="com.evlop.kostoom.Register" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b0049" android:name="com.evlop.kostoom.ForgotPassword" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.SelectLanguage" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b01ec" android:label="Kostoom" android:name="com.facebook.FacebookActivity" android:configChanges="0x5b0" />
+		<activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="fb1724328237818038" />
+			</intent-filter>
+		</activity>
+		<provider android:name="com.facebook.FacebookContentProvider" android:exported="true" android:authorities="com.facebook.app.FacebookContentProvider1724328237818038" />
+		<activity android:theme="resourceId:0x7f0b00c4" android:name="com.evlop.kostoom.Portfolio.PortfolioActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b00c4" android:name="com.evlop.kostoom.Portfolio.ImageUploadActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.Portfolio.ImageFullScreenActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b00c4" android:name="com.evlop.kostoom.verify.VerifyTailorActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b00c4" android:name="com.evlop.kostoom.Rate.RatingActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.QRscan.QRScanActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b00c4" android:name="com.evlop.kostoom.TailorOrderDetailActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b00c4" android:name="com.evlop.kostoom.ReviewActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b0049" android:name="com.evlop.kostoom.fabric.FabricHomeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x12" />
+		<activity android:theme="resourceId:0x7f0b0049" android:name="com.evlop.kostoom.fabric.FabricViewActivity" android:screenOrientation="portrait" android:parentActivityName="com.evlop.kostoom.BaseAppCompatActivity">
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.evlop.kostoom.BaseAppCompatActivity" />
+		</activity>
+		<activity android:name="com.evlop.kostoom.fabric.FabricistActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.fabric.FabricSearchActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.home.CustomerHomeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x10" />
+		<activity android:name="com.evlop.kostoom.home.NewManageActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.fabric.FabricSummaryActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.fabric.FabricCartActivity" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0b0049" android:name="com.evlop.kostoom.model_sewing.ModelSewingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x12" />
+		<activity android:name="com.evlop.kostoom.model_sewing.ModelSewingViewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x3" />
+		<activity android:name="com.evlop.kostoom.model_sewing.ModelSewingSummaryActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.model_sewing.ModelSewingCartActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.order.ConfirmUserDetailActiviy" android:screenOrientation="portrait" android:windowSoftInputMode="0x12" />
+		<activity android:name="com.evlop.kostoom.order.OrderSummaryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x3" />
+		<activity android:name="com.evlop.kostoom.home.MyOrderActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.home.MyTrackActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.home.CoupanViewActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.order.PaymentSummaryActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.model_sewing.ModelSewingListActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.fabric.FabricCategoryListActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.fabric.ModelSewingCategoryListActivity" android:screenOrientation="portrait" />
+		<activity android:name="com.evlop.kostoom.home.TailorHomeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x10" />
+		<activity android:theme="resourceId:0x7f0b00c4" android:name="com.evlop.kostoom.home.ProjectDetailsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x10" />
+		<activity android:theme="resourceId:0x7f0b00c4" android:name="com.evlop.kostoom.fabric.CustomSewingCategoryListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x3" />
+		<activity android:theme="resourceId:0x7f0b00c4" android:name="com.evlop.kostoom.home.UpdateSkillActivity" android:screenOrientation="portrait" android:windowSoftInputMode="0x2" />
+		<activity android:name="com.evlop.kostoom.fragmets.ChangePassword" android:screenOrientation="portrait" />
+		<service android:name="com.evlop.kostoom.service.MyFirebaseMessagingService">
+			<intent-filter>
+				<action android:name="com.google.firebase.MESSAGING_EVENT" />
+			</intent-filter>
+		</service>
+		<service android:name="com.evlop.kostoom.service.MyFirebaseInstanceIDService">
+			<intent-filter>
+				<action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+			</intent-filter>
+		</service>
+		<service android:name="com.zopim.android.sdk.widget.ChatWidgetService" android:exported="false" />
+		<activity android:theme="resourceId:0x7f0b000c" android:label="Chat" android:name="com.zopim.android.sdk.prechat.ZopimChatActivity" android:windowSoftInputMode="0x11">
+			<intent-filter android:priority="-1000">
+				<action android:name="zopim.action.RESUME_CHAT" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="resourceId:0x7f0b000c" android:label="Leave a comment" android:name="com.zopim.android.sdk.chatlog.ZopimCommentActivity" android:windowSoftInputMode="0x10" />
+		<service android:name="com.zopim.android.sdk.api.ChatService" android:exported="false" />
+		<provider android:name="com.zendesk.belvedere.BelvedereFileProvider" android:exported="false" android:authorities="com.evlop.kostoom.belvedere.attachments" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="res/xml/belvedere_attachment_storage.xml" />
+		</provider>
+		<activity android:name="com.facebook.CustomTabMainActivity" />
+		<provider android:name="com.facebook.internal.FacebookInitProvider" android:exported="false" android:authorities="com.evlop.kostoom.FacebookInitProvider" />
+		<activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+		<activity android:theme="resourceId:0x7f0b0109" android:label="Kostoom" android:name="com.darsh.multipleimageselect.activities.AlbumSelectActivity" android:configChanges="0x480">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="resourceId:0x7f0b0109" android:label="Kostoom" android:name="com.darsh.multipleimageselect.activities.ImageSelectActivity" android:configChanges="0x480">
+			<intent-filter>
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+			<intent-filter android:priority="-500">
+				<action android:name="com.google.firebase.MESSAGING_EVENT" />
+			</intent-filter>
+		</service>
+		<receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false" />
+		<receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true">
+			<intent-filter>
+				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+		<service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false" />
+		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+				<category android:name="com.evlop.kostoom" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
+		<service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+			<intent-filter android:priority="-500">
+				<action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+			</intent-filter>
+		</service>
+		<provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.evlop.kostoom.firebaseinitprovider" android:initOrder="100" />
+		<meta-data android:name="com.google.android.gms.version" android:value="10084000" />
+	</application>
+</manifest>

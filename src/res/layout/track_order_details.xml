@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" style="@style/panel">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="false" android:layout_below="false">
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="quantity" />
+		</RelativeLayout>
+		<TextView android:textSize="20dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="asd" android:layout_toRightOf="false" android:layout_alignParentTop="true" />
+		<TextView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="false" android:layout_below="false" android:layout_alignParentRight="true" />
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="false" android:layout_below="false">
+			<TextView android:textColor="ffffff" android:id="false" android:background="res/drawable/inner_button1.xml" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Project Progress" android:layout_alignParentRight="true" />
+		</RelativeLayout>
+		<ImageView android:id="false" android:layout_width="100dp" android:layout_height="100dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+	</RelativeLayout>
+	<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:divider="resourceId:0x0" android:layout_below="false" />
+	<TextView android:textSize="16sp" android:textColor="000" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="No track found for this order" android:layout_centerInParent="true" />
+</RelativeLayout>

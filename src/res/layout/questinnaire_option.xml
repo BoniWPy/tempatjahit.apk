@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="false" android:visibility="0" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="res/drawable/ic_questionnaire_radio.xml" style="@style/chat_bubble_questionnaire" />
+</merge>

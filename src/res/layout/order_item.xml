@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:stretchColumns="0,1" style="@style/panel">
+	<TableRow android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" style="@style/panel">
+		<ImageView android:id="false" android:layout_width="100dp" android:layout_height="100dp" />
+		<LinearLayout android:orientation="1">
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		</LinearLayout>
+		<ImageView android:id="false" android:layout_width="50dp" android:src="res/drawable-xxxhdpi-v4/ic_more_vert.png" />
+	</TableRow>
+</TableLayout>

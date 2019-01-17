@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="10dp" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="15sp" android:textColor="424242" android:id="false" android:text="Name" />
+	<TextView android:textSize="15sp" android:textColor="424242" android:layout_gravity="0x11" android:id="false" android:text="Business Price" />
+	<TextView android:textSize="15sp" android:textColor="424242" android:layout_gravity="0x5" android:id="false" android:text="Unit Price" />
+</TableRow>

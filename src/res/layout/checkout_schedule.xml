@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" style="@style/panel">
+		<TextView android:textColor="d02762" android:gravity="0x1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp" android:text="Sorry We not yet cover your location, Please Use Other Logistics Company to send your fabrics to Kostoom. Please Continue the Checkout process" />
+		<TextView android:gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+		<TextView android:textStyle="0x1" android:layout_width="-2" android:layout_height="-2" android:text="Pickup Schedule" />
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+			<EditText android:gravity="0x1" android:id="false" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="150dp" android:layout_height="-2" android:hint="Date" android:inputType="0x0" />
+			<Spinner android:gravity="0x1" android:entries="resourceId:0x7f0c0000" android:id="false" android:layout_width="170dp" android:layout_height="-2" />
+		</LinearLayout>
+		<TextView android:textStyle="0x1" android:gravity="0x1" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" android:text="Vehicle" />
+		<RadioGroup android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+			<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:text="Motorcycle" />
+			<RadioButton android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Car" />
+		</RadioGroup>
+	</LinearLayout>
+</LinearLayout>

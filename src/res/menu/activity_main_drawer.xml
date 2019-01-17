@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:checkableBehavior="2">
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_home.png" android:id="false" android:title="Home" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_account.png" android:id="false" android:title="My Account" />
+		<item android:icon="res/mipmap-xxxhdpi-v4/ic_list_black_24dp.png" android:id="false" android:title="My Orders" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_track_order.png" android:id="false" android:title="Track Order" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_verified.png" android:id="false" android:title="Verify Tailor" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_camera_portfolio.png" android:id="false" android:title="Portfolio" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_offer.png" android:id="false" android:title="Offers" />
+		<item android:icon="res/mipmap-xxxhdpi-v4/ic_shopping_cart_black_24dp.png" android:id="false" android:title="Cart" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_ecom.png" android:id="false" android:title="Fabrics" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_money.png" android:id="false" android:title="Price List" />
+		<item android:icon="res/mipmap-xxxhdpi-v4/ic_payment_black_24dp.png" android:id="false" android:title="Payment" />
+		<item android:icon="res/mipmap-xxxhdpi-v4/ic_question_answer_black_24dp.png" android:id="false" android:title="Chat" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_about_us.png" android:id="false" android:title="About us" />
+		<item android:icon="res/drawable-xxxhdpi-v4/ic_lock.png" android:id="false" android:title="Sign Out" />
+		<item android:icon="resourceId:0x108003e" android:id="false" android:title="Invoice" />
+	</group>
+</menu>

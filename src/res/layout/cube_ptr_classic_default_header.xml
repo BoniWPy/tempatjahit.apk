@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<RelativeLayout android:layout_width="-1" android:layout_height="60dp">
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="150dp" android:layout_height="-2" android:layout_centerInParent="true">
+			<TextView android:textSize="12sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<TextView android:textSize="10sp" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2dp" />
+		</LinearLayout>
+		<FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:layout_toLeftOf="false" android:layout_centerVertical="true">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/ptr_rotate_arrow.png" />
+			<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" style="@android:style/Widget.ProgressBar.Small" />
+		</FrameLayout>
+	</RelativeLayout>
+</LinearLayout>

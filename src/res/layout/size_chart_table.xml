@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:padding="15dp" android:layout_width="-1" android:layout_height="-2" android:stretchColumns="*">
+	<TableRow>
+		<TextView android:textStyle="0x1" android:layout_column="1" android:text="Size Chart" />
+	</TableRow>
+</TableLayout>

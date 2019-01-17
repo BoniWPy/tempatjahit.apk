@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2" android:stretchColumns="*">
+	<TableRow>
+		<TextView android:text="Size" />
+		<TextView android:id="false" android:text="Size" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Quantity" />
+		<TextView android:id="false" />
+	</TableRow>
+	<TableRow>
+		<TextView android:textStyle="0x1" android:layout_span="2" android:text="Fabric Image" />
+	</TableRow>
+	<TableRow>
+		<GridView android:id="false" android:numColumns="3" android:layout_span="2" />
+	</TableRow>
+	<TableRow>
+		<TextView android:textStyle="0x1" android:layout_span="2" android:text="Note for this position" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="false" android:layout_span="2" />
+	</TableRow>
+</TableLayout>

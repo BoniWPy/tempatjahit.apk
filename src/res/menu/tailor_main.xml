@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="false" android:orderInCategory="100" android:title="Projects" app:showAsAction="0x1" />
+	<item android:id="false" android:orderInCategory="100" android:title="My Work" app:showAsAction="0x1" />
+	<item android:id="false" android:orderInCategory="100" android:title="Fashion News" app:showAsAction="0x1" />
+	<item android:id="false" android:orderInCategory="100" android:title="Tutorial" app:showAsAction="0x1" />
+</menu>

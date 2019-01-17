@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="{2:16842808}" android:ellipsize="4" android:id="resourceId:0x1020014" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Select a department" android:singleLine="true" android:textAlignment="0" style="@style/TextAppearance.AppCompat.Medium" />

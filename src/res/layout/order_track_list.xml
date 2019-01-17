@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+	<LinearLayout android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="55dp" android:layout_height="-2" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+			<TextView android:textSize="30dp" android:textStyle="0x1" android:textColor="d02762" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="26" />
+			<TextView android:textSize="14dp" android:textColor="d02762" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</LinearLayout>
+		<View android:background="d02762" android:layout_width="4194304unknown unit:0x31" android:layout_height="-1" android:layout_marginLeft="3dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" />
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="16dp" android:textColor="resourceId:0x106000c" android:ellipsize="3" android:gravity="0x10" android:id="false" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" android:ems="3" />
+			<TextView android:textSize="14dp" android:textColor="424242" android:ellipsize="3" android:gravity="0x10" android:id="false" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" android:ems="3" />
+			<TextView android:textSize="14dp" android:textColor="424242" android:ellipsize="3" android:gravity="0x10" android:id="false" android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" android:ems="3" />
+		</LinearLayout>
+		<ImageView android:id="false" android:visibility="2" android:layout_width="100dp" android:layout_height="100dp" />
+	</LinearLayout>
+	<View android:background="resourceId:0x1060000" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" />
+</LinearLayout>

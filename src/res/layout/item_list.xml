@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="200dp">
+		<android.support.v4.view.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		<me.relex.circleindicator.CircleIndicator android:id="false" android:layout_width="-1" android:layout_height="48dp" android:layout_alignRight="false" android:layout_alignParentBottom="true" />
+	</RelativeLayout>
+	<com.daimajia.slider.library.SliderLayout android:id="false" android:layout_width="-1" android:layout_height="200dp" />
+	<android.support.v4.widget.SwipeRefreshLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<GridView android:id="false" android:background="e5e5e5" android:layout_width="-1" android:layout_height="-1" android:horizontalSpacing="1dp" android:verticalSpacing="1dp" android:numColumns="4" android:layout_below="false" android:layout_alignParentLeft="true" />
+	</android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

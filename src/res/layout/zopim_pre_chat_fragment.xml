@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="16dp" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:padding="8dp" android:layout_width="-1" android:layout_height="-1">
+			<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<EditText android:id="false" android:nextFocusDown="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:hint="Name" android:inputType="0xb1" />
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<EditText android:id="false" android:nextFocusDown="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:hint="Email address" android:inputType="0x21" />
+			</android.support.design.widget.TextInputLayout>
+			<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<EditText android:id="false" android:nextFocusDown="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:hint="Phone number" android:inputType="0x3" />
+			</android.support.design.widget.TextInputLayout>
+			<Spinner android:id="false" android:nextFocusDown="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:hint="Select a department" />
+			<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<EditText android:gravity="0x800033" android:id="false" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8dp" android:hint="Message" android:maxLines="8" android:lines="4" android:inputType="0x200b1" />
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x51" android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/role_customer.jpg" android:layout_width="-1" android:layout_height="-1">
+	<Button android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Continue" style="@style/button" />
+</LinearLayout>

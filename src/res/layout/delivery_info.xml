@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" style="@style/panel">
+		<ImageView android:layout_width="-1" android:layout_height="135dp" android:src="res/mipmap-mdpi-v4/deliver.png" />
+		<TextView android:textSize="18sp" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text=" Please send your Fabrics to
+ 
+ KOSTOOM HEAD OFFICE
+ 
+ Pesona Depok Estate
+ Blok D No. 11, Pancoran Mas
+ Depok, Jawa Barat
+ " />
+	</LinearLayout>
+</LinearLayout>

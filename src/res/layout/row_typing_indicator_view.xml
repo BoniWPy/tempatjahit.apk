@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zopim.android.sdk.chatlog.view.TypingIndicatorView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+	<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="2dp" android:src="res/drawable/ic_typing_dot_secondary.xml" />
+	<ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="2dp" android:src="res/drawable/ic_typing_dot_secondary.xml" />
+	<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/ic_typing_dot_secondary.xml" />
+</com.zopim.android.sdk.chatlog.view.TypingIndicatorView>

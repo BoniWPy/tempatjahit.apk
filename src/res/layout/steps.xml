@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2" android:stretchColumns="*" android:shrinkColumns="*" style="@style/panel">
+	<TableRow android:layout_width="-1" android:layout_height="-1">
+		<ImageView android:id="false" android:layout_height="35dp" android:src="res/mipmap-mdpi-v4/quantity.png" android:scaleType="3" />
+		<ImageView android:id="false" android:layout_height="35dp" android:src="res/mipmap-mdpi-v4/design.png" android:scaleType="3" />
+		<ImageView android:id="false" android:layout_height="35dp" android:src="res/mipmap-mdpi-v4/fabric.png" android:scaleType="3" />
+		<ImageView android:id="false" android:layout_height="35dp" android:src="res/mipmap-mdpi-v4/size_chart.png" android:scaleType="3" />
+		<ImageView android:id="false" android:layout_height="35dp" android:src="res/mipmap-mdpi-v4/accessories.png" android:scaleType="3" />
+		<ImageView android:id="false" android:layout_height="35dp" android:src="res/mipmap-mdpi-v4/review.png" android:scaleType="3" />
+	</TableRow>
+	<TableRow android:layout_width="-1" android:layout_height="-1">
+		<TextView android:textSize="10dp" android:textColor="d02762" android:gravity="0x11" android:layout_height="-2" android:text="Quantity" />
+		<TextView android:textSize="10dp" android:textColor="d02762" android:gravity="0x11" android:layout_height="-2" android:text="Design" />
+		<TextView android:textSize="10dp" android:textColor="d02762" android:gravity="0x11" android:layout_height="-2" android:text="Size" />
+		<TextView android:textSize="10dp" android:textColor="d02762" android:gravity="0x11" android:layout_height="-2" android:text="Size Chart" />
+		<TextView android:textSize="10dp" android:textColor="d02762" android:gravity="0x11" android:layout_height="-2" android:text="Accessories" />
+		<TextView android:textSize="10dp" android:textColor="d02762" android:gravity="0x11" android:layout_height="-2" android:text="Review" />
+	</TableRow>
+</TableLayout>

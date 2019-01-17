@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="e0e0e0" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:background="res/drawable/pannel_white.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+			<TextView android:textSize="17dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Overall Experience" />
+			<me.zhanghai.android.materialratingbar.MaterialRatingBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" style="@style/Widget.MaterialRatingBar.RatingBar" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="res/drawable/pannel_white.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Sewing Quality" />
+			<me.zhanghai.android.materialratingbar.MaterialRatingBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" style="@style/Widget.MaterialRatingBar.RatingBar" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="res/drawable/pannel_white.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Model Accuracy" />
+			<me.zhanghai.android.materialratingbar.MaterialRatingBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" style="@style/Widget.MaterialRatingBar.RatingBar" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="res/drawable/pannel_white.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Time to deliver" />
+			<me.zhanghai.android.materialratingbar.MaterialRatingBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" style="@style/Widget.MaterialRatingBar.RatingBar" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="res/drawable/pannel_white.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Communications" />
+			<me.zhanghai.android.materialratingbar.MaterialRatingBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" style="@style/Widget.MaterialRatingBar.RatingBar" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="res/drawable/pannel_white.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+			<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Review" />
+			<EditText android:textColor="000" android:textColorHint="9e9e9e" android:gravity="0x33" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Write here" android:maxLines="10" android:minLines="4" android:inputType="0x24001" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

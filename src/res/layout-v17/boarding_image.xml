@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/mipmap-mdpi-v4/boarding_customer_1.jpg" />
+	<TextView android:textSize="15sp" android:textColor="d02762" android:gravity="0x1" android:id="false" android:paddingLeft="30dp" android:paddingRight="30dp" android:paddingBottom="100dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="12dp" android:text="description" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="12dp" android:layout_alignParentEnd="true" />
+	<TextView android:textSize="25sp" android:textStyle="0x1" android:textColor="d02762" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="title" android:layout_above="false" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+</RelativeLayout>

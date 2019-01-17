@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="d02762" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v4.view.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="15dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+		<Button android:textSize="18sp" android:textColor="a51f4e" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_round_border.xml" android:paddingLeft="50dp" android:paddingRight="50dp" android:layout_width="-2" android:layout_height="-2" android:text="LET ME IN" />
+	</LinearLayout>
+	<me.relex.circleindicator.CircleIndicator android:id="false" android:layout_width="-1" android:layout_height="48dp" android:layout_marginTop="32dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

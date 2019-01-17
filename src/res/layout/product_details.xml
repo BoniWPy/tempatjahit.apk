@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<include layout="@layout/steps_next" />
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:layout_above="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<include layout="@layout/steps" />
+			<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="135dp">
+				<android.support.v4.view.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" />
+				<me.relex.circleindicator.CircleIndicator android:id="false" android:layout_width="-1" android:layout_height="48dp" android:layout_alignRight="false" android:layout_alignParentBottom="true" />
+			</RelativeLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" style="@style/panel">
+				<TextView android:textSize="18dp" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Name" />
+				<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+					<TextView android:textSize="12sp" android:textStyle="0x1" android:layout_width="-2" android:layout_height="-2" android:text="Estimated Price For this model" />
+					<TextView android:textSize="12sp" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				</LinearLayout>
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="125dp" android:layout_height="125dp" style="@style/quantity_input">
+					<EditText android:textColor="666666" android:textColorHint="999999" android:gravity="0x11" android:id="false" android:background="res/drawable/quantity_text_box.xml" android:paddingBottom="5dp" android:layout_width="50dp" android:layout_height="-2" android:hint="0" android:maxLength="4" android:inputType="0x2" />
+					<TextView android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:text="Piece(s)" />
+				</LinearLayout>
+				<TextView android:gravity="0x3" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Price Estimation is changing based on :
+ * Total Quantity in 1 Model
+ * Total Piece On Your Next Model Order
+ * Total Variance of Size in 1 Model
+ * Total Using ‘Furing’ Accesories in Model" />
+				<LinearLayout android:orientation="0" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+					<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Price List" style="@style/inner_button" />
+					<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Conditions" style="@style/inner_button" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

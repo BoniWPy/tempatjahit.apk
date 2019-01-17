@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<Button android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="11dp" android:text="Save" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/button" />
+	<ScrollView android:background="0000" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:id="false" android:background="resourceId:0x106000b" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+				<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="100dp" android:layout_height="100dp" android:src="res/drawable-mdpi-v4/com_facebook_profile_picture_blank_portrait.png" android:scaleType="3" />
+				<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+					<me.zhanghai.android.materialratingbar.MaterialRatingBar android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" style="@style/Widget.MaterialRatingBar.RatingBar" />
+					<TextView android:textSize="20dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="false" android:layout_centerVertical="true" />
+				</RelativeLayout>
+				<TextView android:textColor="d02762" android:layout_gravity="0x11" android:id="false" android:background="res/drawable/inner_button.xml" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:text="READ REVIEW" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:background="res/drawable-xhdpi-v4/custom_bg_edittext.xml" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+				<TextView android:textSize="14dp" android:textColor="d02762" android:gravity="0x10" android:layout_gravity="0x5" android:id="false" android:background="res/drawable/inner_button.xml" android:paddingLeft="10dp" android:paddingTop="3dp" android:paddingRight="10dp" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="EDIT" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_edit.png" android:drawablePadding="3dp" />
+				<TextView android:textSize="17dp" android:textStyle="0x1" android:textColor="424242" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="40dp" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_account.png" android:drawablePadding="10dp" android:layout_weight="{4:1065353216}" />
+				<TextView android:textSize="17dp" android:textColor="616161" android:gravity="0x10" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="40dp" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_email.png" android:drawablePadding="10dp" />
+				<TextView android:textSize="17dp" android:textColor="616161" android:gravity="0x10" android:id="false" android:padding="5dp" android:layout_width="-1" android:layout_height="40dp" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_smartphone.png" android:drawablePadding="10dp" />
+			</LinearLayout>
+			<LinearLayout android:orientation="1" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+				<View android:background="eeeeee" android:layout_width="-1" android:layout_height="1dp" />
+				<Button android:textColor="666666" android:gravity="0x13" android:id="false" android:background="resourceId:0x106000b" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Change Password" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_lock.png" android:drawablePadding="10dp" />
+				<View android:background="f4f4f4" android:layout_width="-1" android:layout_height="1dp" />
+				<Button android:textColor="666666" android:gravity="0x13" android:id="false" android:background="resourceId:0x106000b" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Change Language" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_text_format.png" android:drawablePadding="10dp" />
+				<View android:background="eeeeee" android:layout_width="-1" android:layout_height="1dp" />
+			</LinearLayout>
+			<LinearLayout android:textColor="666666" android:orientation="1" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp">
+				<View android:background="eeeeee" android:layout_width="-1" android:layout_height="1dp" />
+				<Button android:textColor="666666" android:gravity="0x13" android:id="false" android:background="resourceId:0x106000b" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Privacy Policy" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_language.png" android:drawablePadding="10dp" />
+				<View android:background="eeeeee" android:layout_width="-1" android:layout_height="1dp" />
+				<Button android:textColor="666666" android:gravity="0x13" android:id="false" android:background="resourceId:0x106000b" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Term &amp; Condition" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_verified.png" android:drawablePadding="10dp" />
+				<View android:background="f4f4f4" android:layout_width="-1" android:layout_height="1dp" />
+				<Button android:textColor="666666" android:gravity="0x13" android:id="false" android:background="resourceId:0x106000b" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2" android:text="Rate Kostoom App" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_stars.png" android:drawablePadding="10dp" />
+				<View android:background="eeeeee" android:layout_width="-1" android:layout_height="1dp" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

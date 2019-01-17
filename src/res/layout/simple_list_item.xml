@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="18sp" android:textColor="resourceId:0x106000c" android:gravity="0x10" android:id="resourceId:0x1020014" android:padding="20dp" android:layout_width="-1" android:layout_height="-2" android:drawableRight="res/drawable-xxxhdpi-v4/ic_arrow_right.png" />

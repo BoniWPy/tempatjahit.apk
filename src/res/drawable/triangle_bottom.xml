@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="false">
+		<rotate android:fromDegrees="{4:1110704128}" android:toDegrees="{4:1110704128}" android:pivotX="-8.507063E36%" android:pivotY="9.244466E-35%">
+			<shape android:shape="0">
+				<solid android:color="bb000" />
+			</shape>
+		</rotate>
+	</item>
+</layer-list>

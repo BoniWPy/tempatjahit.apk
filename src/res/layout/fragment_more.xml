@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:id="false" android:text="My Account" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_account.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<TextView android:id="false" android:text="Track Order" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_track_order.png" android:drawableRight="res/drawable-xxxhdpi-v4/ic_arrow_drop_down.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="40dp">
+				<TextView android:id="false" android:text="Model Sewing" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_all.png" style="@style/myProfileStyle" />
+				<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+				<TextView android:id="false" android:text="Fabrics" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_all.png" style="@style/myProfileStyle" />
+				<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+				<TextView android:id="false" android:text="Custom Sewing" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_all.png" style="@style/myProfileStyle" />
+			</LinearLayout>
+			<TextView android:id="false" android:text="My Orders" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_list_black_24dp.png" android:drawableRight="res/drawable-xxxhdpi-v4/ic_arrow_drop_down.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="40dp">
+				<TextView android:id="false" android:text="Model Sewing" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_all.png" style="@style/myProfileStyle" />
+				<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+				<TextView android:id="false" android:text="Fabrics" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_all.png" style="@style/myProfileStyle" />
+				<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+				<TextView android:id="false" android:text="Custom Sewing" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_all.png" style="@style/myProfileStyle" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:id="false" android:text="Price List" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_money.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<TextView android:id="false" android:text="Payment" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_payment_black_24dp.png" style="@style/myProfileStyle" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:id="false" android:text="Verify Tailor" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_verified.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<TextView android:id="false" android:text="Portfolio" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_camera_portfolio.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<TextView android:id="false" android:text="Offers" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_offer.png" style="@style/myProfileStyle" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:id="false" android:text="About us" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_about_us.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<TextView android:id="false" android:text="Sign Out" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_lock.png" style="@style/myProfileStyle" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:id="false" android:background="d02762" android:layout_width="-1" android:layout_height="-1" android:layout_centerVertical="true">
+	<ImageView android:layout_gravity="0x11" android:id="false" android:padding="0dp" android:layout_width="-2" android:layout_height="140dp" android:src="res/mipmap-mdpi-v4/logo_white.png" android:scaleType="3" />
+	<EditText android:textColorHint="bdbdbd" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Email Address" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_mail_outline_white_24dp.png" android:drawablePadding="5dp" android:inputType="0x21" style="@style/home_screen_text_box" />
+	<EditText android:textColorHint="bdbdbd" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Phone" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_phone_white_24dp.png" android:drawablePadding="5dp" android:inputType="0x3" style="@style/home_screen_text_box" />
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp">
+		<EditText android:textColorHint="bdbdbd" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Password" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_lock_white_24dp.png" android:drawablePadding="5dp" android:inputType="0x81" style="@style/home_screen_text_box" />
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/mipmap-mdpi-v4/ic_white_eye.png" android:layout_alignRight="false" android:layout_alignBottom="false" android:layout_alignParentTop="true" />
+	</RelativeLayout>
+	<Button android:id="false" android:layout_height="-2" android:text="SIGN UP" style="@style/home_screen_button" />
+	<include layout="@layout/dividor_or" />
+	<Button android:id="false" android:layout_height="-2" android:text="Facebook" style="@style/facebook_button" />
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textColor="ffffff" android:gravity="0x5" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:text="Already have an account?" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_edittext.xml" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="50dp" android:layout_marginRight="15dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+		<TextView android:textSize="25dp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50dp" android:text="Home" />
+		<TextView android:textSize="14dp" android:textColor="212121" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Do you want to cancle the order and back to home?" />
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50dp">
+			<Button android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="40dp" android:text="Yes, Back To Home" style="@style/rounded_button" />
+			<Button android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="40dp" android:text="No, Continue Order" style="@style/rounded_button" />
+		</LinearLayout>
+	</LinearLayout>
+	<ImageView android:id="false" android:visibility="2" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="40dp" android:src="res/drawable-xxxhdpi-v4/ic_close_accent.png" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+	<RelativeLayout android:background="res/drawable/rounded_button.xml" android:padding="10dp" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="18dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+		<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/mipmap-xxxhdpi-v4/ic_home_white_48dp.png" android:scaleType="3" android:layout_centerInParent="true" />
+	</RelativeLayout>
+</RelativeLayout>

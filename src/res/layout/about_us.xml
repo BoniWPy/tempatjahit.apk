@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:background="res/drawable/custom_bg_about_us.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+			<TextView android:textSize="15dp" android:textColor="a51f4e" android:background="bdbdbd" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Company information" android:textAllCaps="true" />
+			<TextView android:textSize="19dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" />
+			<TextView android:textSize="17dp" android:textStyle="0x1" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Kostoom Head Office" />
+			<TextView android:textSize="15dp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" />
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:autoLink="0x4" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" />
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:autoLink="0x4" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" />
+			<TextView android:textSize="15dp" android:textStyle="0x1" android:textColor="000" android:autoLink="0x2" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" />
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<ImageView android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp" android:src="res/drawable-xhdpi-v4/ic_whatsapp.png" />
+				<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:src="res/drawable-xhdpi-v4/ic_facebook.png" />
+				<ImageView android:id="false" android:visibility="2" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp" android:src="res/drawable-xhdpi-v4/ic_line.png" />
+				<ImageView android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp" android:src="res/drawable-xhdpi-v4/ic_instagram.png" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="res/drawable/custom_bg_about_us.xml" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+			<TextView android:textSize="15dp" android:textColor="000" android:background="bdbdbd" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Payment information" />
+			<TextView android:textSize="17dp" android:textStyle="0x1" android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" />
+			<TextView android:textSize="15dp" android:textColor="000" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="res/drawable/custom_bg_about_us.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp">
+			<TextView android:textSize="15dp" android:textColor="a51f4e" android:background="bdbdbd" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="Application Version" android:textAllCaps="true" />
+			<TextView android:textSize="15dp" android:textColor="000" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" />
+			<TextView android:textSize="15dp" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

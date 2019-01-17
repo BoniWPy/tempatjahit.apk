@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="res/drawable/ucrop_vector_loader.xml">
+	<target android:name="circleGroup" android:animation="res/anim/ucrop_loader_circle_scale.xml" />
+	<target android:name="circlePath" android:animation="res/anim/ucrop_loader_circle_path.xml" />
+</animated-vector>

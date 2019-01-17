@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+	<LinearLayout android:orientation="1" android:paddingBottom="20dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="16dp" android:layout_marginRight="10dp" android:layout_marginBottom="16dp">
+		<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" app:cardCornerRadius="4dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="17dp" android:textColor="d02762" android:id="false" android:paddingLeft="3dp" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+					<LinearLayout android:gravity="0x10" android:layout_gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp">
+						<TextView android:textSize="13sp" android:textColor="3b5998" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10dp" android:text="Share on" android:textAllCaps="true" />
+						<ImageView android:layout_gravity="0x11" android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xhdpi-v4/ic_facebook.png" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+					<TextView android:textSize="13dp" android:textColor="616161" android:padding="3dp" android:layout_width="-1" android:layout_height="-1" android:text="Brand" android:textAllCaps="true" />
+					<TextView android:textSize="16dp" android:textStyle="0x0" android:textColor="000" android:id="false" android:paddingLeft="3dp" android:layout_width="-1" android:layout_height="-2" />
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+					<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="13dp" android:textColor="616161" android:padding="3dp" android:layout_width="-1" android:layout_height="-1" android:text="Price" android:textAllCaps="true" />
+						<TextView android:textSize="16dp" android:textColor="000" android:id="false" android:paddingLeft="3dp" android:layout_width="-1" android:layout_height="-2" />
+					</LinearLayout>
+					<LinearLayout android:gravity="0x5" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+						<TextView android:textSize="13dp" android:textColor="616161" android:padding="3dp" android:layout_width="-2" android:layout_height="-1" android:text="Color" android:textAllCaps="true" />
+						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+							<View android:id="false" android:background="666666" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="10dp" />
+							<TextView android:textSize="16dp" android:textColor="000" android:id="false" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text="helo" />
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" app:cardCornerRadius="4dp" app:contentPadding="1dp">
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="75dp" android:layout_marginLeft="5dp">
+				<ImageView android:id="false" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="81920unknown unit:0x21" android:paddingBottom="5dp" android:visibility="1" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-xxhdpi-v4/ic_launcher.png" android:scaleType="1" />
+				<ImageView android:id="false" android:paddingLeft="81920unknown unit:0x21" android:paddingTop="5dp" android:paddingRight="81920unknown unit:0x21" android:paddingBottom="5dp" android:visibility="1" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-xxhdpi-v4/ic_launcher.png" android:scaleType="1" />
+				<ImageView android:id="false" android:paddingLeft="81920unknown unit:0x21" android:paddingTop="5dp" android:paddingRight="81920unknown unit:0x21" android:paddingBottom="5dp" android:visibility="1" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-xxhdpi-v4/ic_launcher.png" android:scaleType="1" />
+				<ImageView android:id="false" android:paddingLeft="81920unknown unit:0x21" android:paddingTop="5dp" android:paddingRight="81920unknown unit:0x21" android:paddingBottom="5dp" android:visibility="1" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-xxhdpi-v4/ic_launcher.png" android:scaleType="1" />
+				<ImageView android:id="false" android:paddingLeft="81920unknown unit:0x21" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:visibility="1" android:layout_width="70dp" android:layout_height="70dp" android:src="res/drawable-xxhdpi-v4/ic_launcher.png" android:scaleType="1" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" app:cardCornerRadius="4dp" app:contentPadding="10dp">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<LinearLayout android:orientation="0" android:background="res/drawable/inner_button1.xml" android:layout_width="-2" android:layout_height="-2">
+					<ImageView android:id="false" android:padding="7dp" android:layout_width="40dp" android:layout_height="40dp" android:src="res/drawable-xhdpi-v4/ic_remove.png" />
+					<TextView android:textSize="17dp" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:layout_width="80dp" android:layout_height="40dp" android:text="0 QTY" />
+					<ImageView android:id="false" android:padding="7dp" android:layout_width="40dp" android:layout_height="40dp" android:src="res/drawable-xhdpi-v4/ic_add.png" />
+				</LinearLayout>
+				<TextView android:textSize="15dp" android:textColor="000" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="5dp" app:cardCornerRadius="4dp" app:contentPadding="5dp">
+			<LinearLayout android:orientation="1" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="13dp" android:textColor="616161" android:padding="3dp" android:layout_width="-1" android:layout_height="-1" android:text="Product Details" android:textAllCaps="true" />
+				<TextView android:textSize="16dp" android:textColor="000" android:id="false" android:paddingLeft="3dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5dp" />
+				<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+					<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:layout_width="130dp" android:layout_height="-2" android:layout_margin="10dp" app:cardCornerRadius="4dp" app:contentPadding="15dp">
+						<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="a51f4e" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Buy Now" android:textAllCaps="true" />
+					</android.support.v7.widget.CardView>
+					<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:id="false" android:layout_width="130dp" android:layout_height="-2" android:layout_margin="10dp" app:cardCornerRadius="4dp" app:contentPadding="15dp">
+						<TextView android:textSize="14sp" android:textStyle="0x1" android:textColor="a51f4e" android:gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_edittext.xml" android:layout_width="-1" android:layout_height="-2" android:text="Sewing Now" android:textAllCaps="true" />
+					</android.support.v7.widget.CardView>
+				</LinearLayout>
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" app:cardCornerRadius="4dp" app:contentPadding="5dp">
+			<LinearLayout android:orientation="1" android:paddingLeft="5dp" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="13dp" android:textColor="616161" android:gravity="0x10" android:id="false" android:layout_width="-1" android:layout_height="-1" android:text="Share" android:drawableRight="res/drawable-xxxhdpi-v4/ic_arrow_drop_down.png" android:textAllCaps="true" />
+				<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+					<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:src="res/drawable-xhdpi-v4/ic_facebook.png" />
+					<ImageView android:id="false" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="10dp" android:src="res/drawable-xhdpi-v4/ic_twitter.png" />
+					<ImageView android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp" android:src="res/drawable-xhdpi-v4/ic_instagram.png" />
+				</LinearLayout>
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+	</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

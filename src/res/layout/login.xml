@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:id="false" android:background="d02762" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="150dp" android:src="res/mipmap-mdpi-v4/logo_white.png" android:scaleType="3" />
+		<EditText android:textColorHint="bdbdbd" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Email Address" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_mail_outline_white_24dp.png" android:drawablePadding="5dp" android:inputType="0x21" style="@style/home_screen_text_box" />
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+			<EditText android:textColorHint="bdbdbd" android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Password" android:drawableLeft="res/mipmap-xxxhdpi-v4/ic_lock_white_24dp.png" android:drawablePadding="5dp" android:inputType="0x81" style="@style/home_screen_text_box" />
+			<ImageView android:id="false" android:layout_width="-2" android:layout_height="-1" android:src="res/mipmap-mdpi-v4/ic_white_eye.png" android:layout_alignRight="false" android:layout_alignBottom="false" android:layout_alignParentTop="true" />
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_marginRight="30dp">
+			<TextView android:textColor="ffffff" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:text="Forgot Password?" />
+			<TextView android:textColor="ffffff" android:gravity="0x5" android:id="false" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10dp" android:text="Create Account" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+		</RelativeLayout>
+		<Button android:layout_gravity="0x11" android:id="false" android:layout_height="-2" android:layout_marginTop="10dp" android:text="SIGN IN" style="@style/home_screen_button" />
+		<include layout="@layout/dividor_or" />
+		<Button android:layout_gravity="0x11" android:id="false" android:layout_height="-2" android:text="Facebook" style="@style/facebook_button" />
+	</LinearLayout>
+	<TextView android:textSize="13dp" android:textColor="ffffff" android:padding="3dp" android:layout_width="-2" android:layout_height="-2" android:text="Term &amp; Condition" android:onClick="callTermCondition" />
+</LinearLayout>

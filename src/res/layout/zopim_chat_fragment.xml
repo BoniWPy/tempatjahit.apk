@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+		<ProgressBar android:layout_width="-2" android:layout_height="-2" style="?android:progressBarStyleSmall" />
+		<TextView android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:text="Starting chat…" />
+	</LinearLayout>
+	<include android:id="false" android:visibility="2" layout="@layout/no_connection_error_view" />
+	<include android:id="false" android:visibility="2" layout="@layout/no_agents_view" />
+	<include android:id="false" android:visibility="2" layout="@layout/could_not_connect_error_view" />
+</RelativeLayout>

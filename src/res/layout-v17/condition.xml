@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+	<ImageView android:id="false" android:background="d02762" android:layout_width="250dp" android:layout_height="250dp" android:layout_marginTop="12dp" android:scaleType="6" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+	<TextView android:textSize="18dp" android:textStyle="0x1" android:gravity="0x51" android:id="false" android:background="res/mipmap-mdpi-v4/white_bg_triangle.png" android:layout_width="250dp" android:layout_height="60dp" android:layout_marginBottom="0dp" android:text="Conditions" android:layout_alignBottom="false" android:layout_alignParentLeft="true" android:textAllCaps="true" android:layout_alignParentStart="true" />
+	<TextView android:gravity="0x11" android:id="false" android:background="ffffff" android:paddingTop="20dp" android:paddingBottom="10dp" android:layout_width="250dp" android:layout_height="-2" android:text="1 Model use max. combination from 3 fabrics 
+ Free sewing your brand label on clothing
+ Estimate processing time is 2 weeks
+ Can be revision one time only
+ Can be different color" android:layout_below="false" android:layout_alignParentLeft="true" android:lineSpacingExtra="3dp" android:layout_alignParentStart="true" />
+	<LinearLayout android:textColor="ffffff" android:gravity="0x1" android:orientation="0" android:id="false" android:background="d02762" android:padding="5dp" android:layout_width="250dp" android:layout_height="-2" android:layout_below="false" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+		<TextView android:textSize="12dp" android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:text="*Free Pickup Fabrics on Jabodetabek Area" />
+	</LinearLayout>
+	<ImageView android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="-12dp" android:layout_marginRight="-12dp" android:src="res/mipmap-mdpi-v4/ic_close.png" android:scaleType="3" android:layout_alignTop="false" android:layout_alignRight="false" android:layout_alignEnd="false" />
+</RelativeLayout>

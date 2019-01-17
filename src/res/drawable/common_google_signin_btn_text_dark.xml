@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="false" android:drawable="res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_disabled.9.png" />
+	<item android:state_pressed="true" android:drawable="res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_pressed.9.png" />
+	<item android:state_focused="true" android:drawable="res/drawable/common_google_signin_btn_text_dark_focused.xml" />
+	<item android:drawable="res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal.9.png" />
+</selector>

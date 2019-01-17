@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	<FrameLayout android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="64dp" android:layout_above="false">
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1" />
+		<include android:id="false" layout="@layout/ucrop_layout_rotate_wheel" />
+		<include android:id="false" layout="@layout/ucrop_layout_scale_wheel" />
+	</FrameLayout>
+	<ImageView android:background="res/drawable/ucrop_shadow_upside.xml" android:layout_width="-1" android:layout_height="3dp" android:layout_above="false" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="72dp" android:baselineAligned="false" android:layout_alignParentBottom="true">
+		<FrameLayout android:id="false" style="@style/ucrop_WrapperIconState">
+			<ImageView android:id="false" android:src="res/drawable-xxxhdpi-v4/ucrop_ic_scale.png" style="@style/ucrop_ImageViewWidgetIcon" />
+		</FrameLayout>
+		<FrameLayout android:id="false" style="@style/ucrop_WrapperIconState">
+			<ImageView android:id="false" android:src="res/drawable-xxxhdpi-v4/ucrop_ic_crop.png" style="@style/ucrop_ImageViewWidgetIcon" />
+		</FrameLayout>
+		<FrameLayout android:id="false" style="@style/ucrop_WrapperIconState">
+			<ImageView android:id="false" android:src="res/drawable-xxxhdpi-v4/ucrop_ic_rotate.png" style="@style/ucrop_ImageViewWidgetIcon" />
+		</FrameLayout>
+	</LinearLayout>
+</merge>

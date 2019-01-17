@@ -1,0 +1,11 @@
+Summary for /storage/emulated/0/show-java/sources/com.evlop.kostoom/jar-files/3.jar
+Decompiled with CFR 0.0
+
+
+com.zopim.android.sdk.data.LivechatChatLogPath
+----------------------------
+
+findAgentQuestionnaire(com.zopim.android.sdk.model.ChatLog )
+  Unable to fully structure code
+updateInternal(java.util.LinkedHashMap<java.lang.String, com.zopim.android.sdk.model.ChatLog> )
+  Unable to fully structure code

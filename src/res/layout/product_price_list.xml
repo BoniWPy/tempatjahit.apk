@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="eeeeee" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+	<TableLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:stretchColumns="*" style="@style/panel">
+		<TableRow android:id="false">
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:id="false" android:text="Name" android:capitalize="3" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x11" android:id="false" android:text="Business Price" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="000" android:layout_gravity="0x5" android:id="false" android:text="Unit Price" />
+		</TableRow>
+	</TableLayout>
+</ScrollView>

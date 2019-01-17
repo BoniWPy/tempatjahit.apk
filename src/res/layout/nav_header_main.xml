@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="resourceId:0x7f0b015b" android:orientation="1" android:background="d02762" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="160dp">
+	<ImageView android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/kosttom_icon.png" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+</RelativeLayout>

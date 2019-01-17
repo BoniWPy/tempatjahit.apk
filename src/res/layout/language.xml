@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+		<ImageView android:id="false" android:layout_width="200dp" android:layout_height="200dp" android:src="res/drawable/logo_kostoom_color.png" android:layout_above="false" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="16sp" android:textStyle="0x1" android:textColor="2f477a" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Select Language" />
+		<Button android:textSize="16sp" android:textColor="2f477a" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_border_blue.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:text="English" />
+		<Button android:textSize="16sp" android:textColor="2f477a" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_border_blue.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:text="Indonesian" />
+	</LinearLayout>
+</RelativeLayout>

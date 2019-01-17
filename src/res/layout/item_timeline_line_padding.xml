@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+	<com.github.vipulasri.timelineview.TimelineView android:id="false" android:layout_width="-2" android:layout_height="-1" app:line="d02762" app:markerSize="15dp" app:lineSize="2dp" app:linePadding="4dp" />
+	<android.support.v7.widget.CardView android:layout_gravity="0x10" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" app:cardElevation="3dp" app:contentPadding="10dp">
+		<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<android.support.v7.widget.AppCompatTextView android:textSize="12sp" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+			<android.support.v7.widget.AppCompatTextView android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" />
+			<android.support.v7.widget.AppCompatTextView android:textColor="666666" android:layout_gravity="0x5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" />
+			<ImageView android:layout_gravity="0x3" android:id="false" android:visibility="2" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginTop="10dp" />
+		</LinearLayout>
+	</android.support.v7.widget.CardView>
+</LinearLayout>

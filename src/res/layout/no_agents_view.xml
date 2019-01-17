@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:layout_width="-2" android:layout_height="-2" android:text="No agents available" android:drawableTop="res/drawable-xxxhdpi-v4/ic_noagents_red.png" android:drawablePadding="12dp" style="@style/no_connection_error_view_title" />
+	<TextView android:padding="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Sorry, there are no agents available to chat. Please try again later or leave us a message." style="@style/no_connection_error_view_text" />
+	<Button android:id="false" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="Leave a message" style="@style/no_agents_button" />
+</LinearLayout>

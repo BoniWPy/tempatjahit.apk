@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+		<ImageView android:layout_width="-2" android:layout_height="120dp" android:layout_marginBottom="20dp" android:src="res/drawable-xhdpi-v4/logo_mandiri.png" />
+		<TextView android:textColor="000" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="Transfer Payment 
+ Acc. Name: PT Kostoom Talenta Teknologi
+ Acc. No: 1250000773770
+ Jakarta, Indonesia
+ 
+ *Please Confirm your Payment and
+Send the receipt to halo@kostoom.com or
+Whatsapp +62 878 8562 0515" />
+		<TextView android:textSize="22sp" android:textStyle="0x1" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20dp" />
+	</LinearLayout>
+	<Button android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable/estimate_button.xml" android:layout_width="-1" android:layout_height="{2:2130772043}" android:layout_marginTop="20dp" android:text="Confirm Term &amp; Condition" android:drawableRight="res/mipmap-xxxhdpi-v4/ic_chevron_right_black_24dp.png" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="0" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2">
+	<ImageButton android:id="false" android:background="{2:16843868}" android:padding="16dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxxhdpi-v4/places_ic_search.png" android:layout_weight="{4:0}" android:contentDescription="Search" />
+	<EditText android:textSize="20dp" android:textColor="212121" android:textColorHint="bdbdbd" android:id="false" android:background="resourceId:0x0" android:paddingLeft="16dp" android:paddingRight="16dp" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0dp" android:layout_height="-1" android:hint="Search" android:maxLines="1" android:lines="1" android:singleLine="true" android:layout_weight="{4:1065353216}" android:inputType="0x80001" />
+	<ImageButton android:id="false" android:background="{2:16843868}" android:padding="16dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxxhdpi-v4/places_ic_clear.png" android:layout_weight="{4:0}" android:contentDescription="Clear search" />
+</LinearLayout>

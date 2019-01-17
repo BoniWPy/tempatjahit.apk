@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<shape android:shape="0">
+			<stroke android:width="1677722unknown unit:0x32" android:color="e5e5e5" />
+			<solid android:color="resourceId:0x106000b" />
+			<size android:height="42dp" android:width="42dp" />
+			<corners android:radius="3dp" />
+		</shape>
+	</item>
+	<item>
+		<bitmap android:gravity="0x11" android:src="res/drawable-xxxhdpi-v4/ic_thumb_up_black.png" android:alpha="{4:1048911544}" />
+	</item>
+</layer-list>

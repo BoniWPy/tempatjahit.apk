@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<TableLayout android:layout_width="-1" android:layout_height="-2" android:stretchColumns="0,1,2,3" android:layout_alignParentBottom="true">
+		<TableRow>
+			<ImageView android:layout_gravity="0x5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-4dp" android:layout_marginRight="-4dp" android:src="res/mipmap-mdpi-v4/ic_close.png" android:layout_span="2" style="@style/panel" />
+		</TableRow>
+		<TableRow>
+			<TextView android:text="Size" />
+			<Spinner android:entries="resourceId:0x7f0c0005" android:id="false" android:prompt="Select Size" style="@style/text_box" />
+		</TableRow>
+		<TableRow>
+			<TextView android:text="Quantity" />
+			<EditText android:id="false" android:hint="0" android:maxLength="4" android:inputType="0x2" style="@style/text_box" />
+		</TableRow>
+		<TableRow android:visibility="2">
+			<TextView android:textStyle="0x1" android:layout_span="2" android:text="Fabric Image" />
+		</TableRow>
+		<TableRow android:visibility="2">
+			<GridView android:id="false" android:horizontalSpacing="1dp" android:numColumns="3" android:layout_span="2" />
+		</TableRow>
+		<TableRow>
+			<EditText android:id="false" android:layout_span="2" android:hint="Note:" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

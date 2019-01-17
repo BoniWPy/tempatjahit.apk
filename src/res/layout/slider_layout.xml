@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<com.daimajia.slider.library.Tricks.InfiniteViewPager android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	<com.daimajia.slider.library.Indicators.PagerIndicator android:gravity="0x11" android:id="false" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" custom:shape="0" />
+	<com.daimajia.slider.library.Indicators.PagerIndicator android:gravity="0x11" android:id="false" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+	<com.daimajia.slider.library.Indicators.PagerIndicator android:gravity="0x11" android:id="false" android:paddingLeft="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+	<com.daimajia.slider.library.Indicators.PagerIndicator android:gravity="0x11" android:id="false" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+	<com.daimajia.slider.library.Indicators.PagerIndicator android:gravity="0x11" android:id="false" android:paddingTop="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+	<com.daimajia.slider.library.Indicators.PagerIndicator android:gravity="0x11" android:id="false" android:paddingLeft="10dp" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

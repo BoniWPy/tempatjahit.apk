@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp">
+		<RelativeLayout android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<TextView android:textSize="15dp" android:textColor="000" android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Category" android:drawableRight="res/drawable-xxxhdpi-v4/ic_category.png" android:drawablePadding="30dp" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<View android:background="757575" android:layout_width="4194304unknown unit:0x31" android:layout_height="-1" />
+		<RelativeLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<com.jayfang.dropdownmenu.DropDownMenu android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="45dp" android:layout_centerInParent="true" />
+		</RelativeLayout>
+	</LinearLayout>
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<ListView android:id="false" android:layout_width="-1" android:layout_height="-1" android:divider="resourceId:0x0" />
+		<ImageView android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+		<TextView android:textSize="15dp" android:textColor="08760" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Oops! No Projects found." android:layout_centerInParent="true" />
+	</RelativeLayout>
+</LinearLayout>

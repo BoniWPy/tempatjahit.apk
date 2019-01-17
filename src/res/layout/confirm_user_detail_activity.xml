@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f5f5f5" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<LinearLayout android:orientation="1" android:padding="5dp" android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textStyle="0x2" android:textColor="e885a7" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Please confirm contact details for this order" />
+			<TextView android:textSize="13dp" android:textColor="616161" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="2dp" android:text="Name" android:textAllCaps="true" />
+			<EditText android:textSize="15dp" android:textColor="000" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:hint="Name" android:inputType="0x2001" />
+			<TextView android:textSize="13dp" android:textColor="616161" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="2dp" android:text="Email" android:textAllCaps="true" />
+			<EditText android:textSize="15dp" android:textColor="000" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:hint="Email" android:inputType="0x21" />
+			<TextView android:textSize="13dp" android:textColor="616161" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="2dp" android:text="Phone" android:textAllCaps="true" />
+			<EditText android:textSize="15dp" android:textColor="000" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:hint="Phone" android:inputType="0x2" />
+			<TextView android:textSize="13dp" android:textColor="616161" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="2dp" android:text="Address" android:textAllCaps="true" />
+			<EditText android:textSize="15dp" android:textColor="000" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:hint="Address" android:inputType="0x24001" />
+			<TextView android:textSize="13dp" android:textColor="616161" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="2dp" android:text="City" android:textAllCaps="true" />
+			<EditText android:textSize="15dp" android:textColor="000" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:hint="City" android:inputType="0x2001" />
+			<TextView android:textSize="13dp" android:textColor="616161" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="2dp" android:text="District" android:textAllCaps="true" />
+			<EditText android:textSize="15dp" android:textColor="000" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:hint="District" android:inputType="0x2001" />
+		</LinearLayout>
+	</ScrollView>
+	<Button android:textColor="000" android:gravity="0x11" android:id="false" android:background="res/drawable/estimate_button.xml" android:layout_width="-1" android:layout_height="{2:2130772043}" android:layout_marginTop="20dp" android:text="Confirm Details" android:drawableRight="res/mipmap-xxxhdpi-v4/ic_chevron_right_black_24dp.png" />
+</LinearLayout>

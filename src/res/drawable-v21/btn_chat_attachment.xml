@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="false">
+		<bitmap android:src="res/drawable-xxxhdpi-v4/ic_attachment_black_24dp.png" android:alpha="{4:1048911544}" />
+	</item>
+	<item android:state_pressed="true">
+		<bitmap android:src="res/drawable-xxxhdpi-v4/ic_attachment_black_24dp.png" android:alpha="{4:1057635697}" />
+	</item>
+	<item android:state_focused="true">
+		<bitmap android:src="res/drawable-xxxhdpi-v4/ic_attachment_black_24dp.png" android:alpha="{4:1057635697}" />
+	</item>
+	<item>
+		<bitmap android:src="res/drawable-xxxhdpi-v4/ic_attachment_black_24dp.png" android:alpha="{4:1057635697}" />
+	</item>
+</selector>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x1" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+	<ImageView android:id="false" android:background="d02762" android:layout_width="250dp" android:layout_height="250dp" android:layout_marginTop="12dp" android:scaleType="6" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+	<TextView android:textSize="18dp" android:textStyle="0x1" android:gravity="0x51" android:id="false" android:background="res/mipmap-mdpi-v4/white_bg_triangle.png" android:layout_width="250dp" android:layout_height="60dp" android:layout_marginBottom="0dp" android:text="PRICE" android:layout_alignBottom="false" android:layout_alignParentLeft="true" />
+	<TableLayout android:id="false" android:background="ffffff" android:paddingTop="20dp" android:paddingBottom="10dp" android:layout_width="250dp" android:layout_height="-2" android:stretchColumns="*" android:layout_below="false" android:layout_alignParentLeft="true">
+		<TableRow>
+			<TextView />
+			<TextView android:text="Min" />
+			<TextView android:text="Max" />
+		</TableRow>
+		<TableRow>
+			<TextView android:id="false" android:paddingLeft="7dp" />
+			<TextView android:text="24" />
+			<TextView android:text="60" />
+		</TableRow>
+		<TableRow>
+			<TextView android:id="false" android:paddingLeft="7dp" />
+			<TextView android:text="61" />
+			<TextView android:text="100" />
+		</TableRow>
+		<TableRow>
+			<TextView android:id="false" android:paddingLeft="7dp" />
+			<TextView android:text="101" />
+			<TextView android:text="300" />
+		</TableRow>
+		<TableRow>
+			<TextView android:id="false" android:paddingLeft="7dp" />
+			<TextView android:text="301" />
+			<TextView android:text="1000" />
+		</TableRow>
+		<TableRow>
+			<TextView android:id="false" android:paddingLeft="7dp" />
+			<TextView android:text="1000" />
+			<TextView android:text="-" />
+		</TableRow>
+	</TableLayout>
+	<LinearLayout android:textColor="ffffff" android:gravity="0x1" android:orientation="0" android:id="false" android:background="d02762" android:padding="5dp" android:layout_width="250dp" android:layout_height="-2" android:layout_below="false" android:layout_alignParentLeft="true">
+		<TextView android:textColor="ffffff" android:layout_width="-2" android:layout_height="-2" android:text="Sample Price:" />
+		<TextView android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+	</LinearLayout>
+	<ImageView android:id="false" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="-12dp" android:layout_marginRight="-12dp" android:src="res/mipmap-mdpi-v4/ic_close.png" android:scaleType="3" android:layout_alignTop="false" android:layout_alignRight="false" />
+</RelativeLayout>

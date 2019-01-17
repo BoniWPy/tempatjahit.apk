@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:id="false" android:text="My Account" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_account.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<TextView android:id="false" android:text="Update Skills" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_skill.png" style="@style/myProfileStyle" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:id="false" android:text="Verify Tailor" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_verified.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<TextView android:id="false" android:text="Portfolio" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_camera_portfolio.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<TextView android:id="false" android:text="Offers" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_offer.png" style="@style/myProfileStyle" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:id="false" android:text="About us" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_about_us.png" style="@style/myProfileStyle" />
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="50dp" />
+			<TextView android:id="false" android:text="Sign Out" android:drawableLeft="res/drawable-xxxhdpi-v4/ic_lock.png" style="@style/myProfileStyle" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

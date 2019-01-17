@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" android:layout_centerVertical="true">
+		<TextView android:textSize="22sp" android:textStyle="0x1" android:textColor="2f477a" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Siapa Anda?" />
+		<Button android:textColor="f4f6f8" android:id="false" android:background="2f477a" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp" android:text="Pelangga (Kostoomer)" />
+		<Button android:textColor="f4f6f8" android:id="false" android:background="d02762" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp" android:text="Penjahit (Kostoomaker)" />
+		<Button android:textColor="f4f6f8" android:id="false" android:background="bdc1c9" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp" android:text="Vendor Kain" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+		<android.support.v4.view.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<android.support.v4.view.PagerTabStrip android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		</android.support.v4.view.ViewPager>
+	</LinearLayout>
+	<TextView android:textStyle="0x1" android:textColor="d02762" android:gravity="0x11" android:id="false" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="50dp" android:text="Who Are You?" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+</RelativeLayout>

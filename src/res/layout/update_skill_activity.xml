@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="eeeeee" android:layout_width="-1" android:layout_height="-1">
+	<android.support.v7.widget.CardView android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" app:cardCornerRadius="5dp" app:cardElevation="3dp" app:contentPadding="10dp">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+				<TextView android:textSize="16dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="Making Pattern" />
+			</LinearLayout>
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="40dp" />
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+				<TextView android:textSize="16dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="Basic Sewing" />
+			</LinearLayout>
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="40dp" />
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+				<TextView android:textSize="16dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="Professional Sewing" />
+			</LinearLayout>
+			<View android:background="bdbdbd" android:layout_width="-1" android:layout_height="4194304unknown unit:0x31" android:layout_marginLeft="40dp" />
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<CheckBox android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+				<TextView android:textSize="16dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="Special Skill" />
+			</LinearLayout>
+			<EditText android:textSize="16dp" android:textColor="000" android:textColorHint="9e9e9e" android:gravity="0x33" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_size.xml" android:padding="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="40dp" android:hint="Write here" android:maxLines="4" android:minLines="3" android:inputType="0x22001" />
+			<Button android:textSize="16dp" android:textColor="a51f4e" android:layout_gravity="0x11" android:id="false" android:background="res/drawable-xhdpi-v4/custom_bg_square_border.xml" android:layout_width="180dp" android:layout_height="-2" android:layout_marginTop="16dp" android:text="Update" />
+		</LinearLayout>
+	</android.support.v7.widget.CardView>
+</LinearLayout>

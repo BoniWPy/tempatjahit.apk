@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x30" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:layout_above="false">
+		<LinearLayout android:gravity="0x30" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<include layout="@layout/steps" />
+			<LinearLayout android:gravity="0x30" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2" style="@style/panel" />
+			<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" style="@style/panel">
+				<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" />
+				<Button android:textSize="13sp" android:layout_gravity="0x5" android:id="false" android:paddingTop="3dp" android:paddingBottom="3dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="ADD MORE SIZE" style="@style/inner_button1" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<include layout="@layout/steps_next" />
+</RelativeLayout>

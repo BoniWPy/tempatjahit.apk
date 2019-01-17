@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layoutDirection="0">
+	<include android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" layout="@layout/zopim_toolbar" />
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="false" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_alignParentTop="true">
+		<EditText android:gravity="0x800033" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:layout_width="-1" android:layout_height="-2" android:hint="Comment" android:inputType="0x20001" />
+	</android.support.design.widget.TextInputLayout>
+</RelativeLayout>

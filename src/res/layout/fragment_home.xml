@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="eeeeee" android:scrollbars="0x0" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<android.support.v7.widget.CardView android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="6dp" app:cardElevation="2dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<RelativeLayout android:background="d02762" android:layout_width="-1" android:layout_height="-2">
+					<ProgressBar android:theme="resourceId:0x7f0b00c2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+					<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+				</RelativeLayout>
+				<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" />
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+					<TextView android:textSize="14dp" android:textColor="212121" android:layout_gravity="0x30" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14dp" android:textStyle="0x1" android:textColor="ffffff" android:background="res/drawable-xhdpi-v4/custom_bg_brand.xml" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="10dp" android:paddingBottom="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Model Sewing" />
+				</LinearLayout>
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="6dp" app:cardElevation="2dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<RelativeLayout android:background="d02762" android:layout_width="-1" android:layout_height="-2">
+					<ProgressBar android:theme="resourceId:0x7f0b00c2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+					<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+				</RelativeLayout>
+				<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Buy Fabrics With Ease" />
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+					<TextView android:textSize="14dp" android:textColor="212121" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14dp" android:textStyle="0x1" android:textColor="ffffff" android:background="res/drawable-xhdpi-v4/custom_bg_brand.xml" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="10dp" android:paddingBottom="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Buy Fabrics" />
+				</LinearLayout>
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="6dp" app:cardElevation="2dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<RelativeLayout android:background="d02762" android:layout_width="-1" android:layout_height="-2">
+					<ProgressBar android:theme="resourceId:0x7f0b00c2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+					<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+				</RelativeLayout>
+				<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Grow Your Fashion Business With Us" />
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+					<TextView android:textSize="14dp" android:textColor="212121" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14dp" android:textStyle="0x1" android:textColor="ffffff" android:background="res/drawable-xhdpi-v4/custom_bg_brand.xml" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="10dp" android:paddingBottom="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Custom Sewing" />
+				</LinearLayout>
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" app:cardBackgroundColor="ffffff" app:cardCornerRadius="6dp" app:cardElevation="2dp" app:contentPadding="10dp">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<RelativeLayout android:background="d02762" android:layout_width="-1" android:layout_height="-2">
+					<ProgressBar android:theme="resourceId:0x7f0b00c2" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+					<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+				</RelativeLayout>
+				<TextView android:textSize="16dp" android:textStyle="0x1" android:textColor="000" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Control Your Business &amp; Product Stocks" />
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp">
+					<TextView android:textSize="14dp" android:textColor="212121" android:id="false" android:layout_width="0dp" android:layout_height="-2" android:text="FREE" android:layout_weight="{4:1065353216}" />
+					<TextView android:textSize="14dp" android:textStyle="0x1" android:textColor="ffffff" android:background="res/drawable-xhdpi-v4/custom_bg_brand.xml" android:paddingLeft="10dp" android:paddingTop="6dp" android:paddingRight="10dp" android:paddingBottom="6dp" android:layout_width="-2" android:layout_height="-2" android:text="Manage Now" />
+				</LinearLayout>
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+	</LinearLayout>
+</ScrollView>
